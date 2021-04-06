@@ -17,7 +17,7 @@
                 <a href="#tours">Tours</a>
                 <a href="#about">About</a>
                 <a href="#repairs">Repairs</a>
-                <a href="#contscts">Contacts</a>
+                <a href="#contacts">Contacts</a>
             </div>
             <h1>Bicycle <br> Rentails</h1>
             <p>Washington DC <!--вертикальна лінія з допомогою css--> Explore the city with our bikes!</p>
@@ -62,8 +62,9 @@
                    </div>
          </div>
          <!--Bohdan Code finish-->
+
         <!-- Denis Work Start-->
-        <div class="most-populars-bikes">
+        <div class="most-populars-bikes" id="mostpopularbikes">
             <div><h2>Most Popular Biker</h2></div>
             <div>
                 <div>
@@ -105,8 +106,9 @@
             </div>
         </div>
         <!--Denis Work finish-->
+
         <!--  Bohdan CODE Start-->
-       <div class="three-pic">
+       <div class="three-pic" id="accessories">
                 <div>
                    <p>Tag-along</p>
                     <img src="" alt="">
@@ -122,7 +124,7 @@
                 </div>
          </div>
          <div class="rent-bike">
-            <div>
+            <div id="howtorentabike">
                 <h2>How to Rent a Bike</h2>
             </div>
             <div>
@@ -157,6 +159,7 @@
             </div>
          </div>
         <!--Bohdan Code finish-->
+
         <!--Denis code Start-->
         <div class="repairs">
             <div id="repairs">
@@ -302,6 +305,7 @@
             </table>
         </div>
         <!--Denis code finish-->
+
         <!--Bohdan code start-->
         <div>
             <div>
@@ -311,13 +315,28 @@
                 <p>Fill in the form and we will get in touch with <br> you as soon as possible!</p>
             </div>
             <div class="form"> 
-                    <form action="#" method="POST">
-                        <input type="text" name="username" placeholder="Name" required><br>
-                        <input type="tel" name="phone-number" placeholder="Phone number" required><br>
-                        <input type="email" name="email" placeholder="Email" required><br>
-                        <input type="text" name="satrt" placeholder="Start date & time" required><br>
-                        <input type="text" name="finish" placeholder="Finish date & time*" required><br>
-                        <input type="submit" value="Book and bike">
+                <form action="#" method="POST">
+                    <label>
+                        <input type="text" name="username" placeholder="Name*" required>
+                    </label>
+                    <br>
+                    <label>
+                        <input type="tel" name="phone-number" placeholder="Phone number*" required>
+                    </label>
+                    <br>
+                    <label>
+                        <input type="email" name="email" placeholder="Email*" required>
+                    </label>
+                    <br>
+                    <label>
+                        <input type="text" name="satrt" placeholder="Start date & time*" required>
+                    </label>
+                    <br>
+                    <label>
+                        <input type="text" name="finish" placeholder="Finish date & time*" required>
+                    </label>
+                    <br>
+                    <input type="submit" value="Book and bike">
                 </form>
             </div>
         </div>
@@ -349,9 +368,290 @@
             </div>
         </div>
         <!--Bohdan code finish-->
+
+        <!--Bohdan code start-->
+        <div id="testimonials">
+            <h2>Testimonials</h2>
+            <div class="carousel">
+                <img src="" alt="">
+                <span>
+                    <h3>Amanda Peterson</h3>
+                </span>
+                <p>Marketing Director at Fresh Food Co</p>
+                <span>"What a perfect tour! The bike tour with Funny Bikes was the best part of our summer holidays. <br> All the guides were very friendly, they really made the ride safe and extremely exciting. Thanks for the unforgettable memories!"</span> <br>
+                <span>July 15, 2018</span>
+            </div>
+        </div>
+        <div class="carousel">
+            <img src="" alt="">
+            <span>
+                <h3>
+                    Patrick Poll
+                </h3>
+            </span>
+            <p>
+                CEO at Clear Thinkink 
+            </p>
+            <span>
+                "The tour was wonderful and the tour guides were very helpful. We had a great time, the best <br> vacation we've ever had! We were also charmed with the amazing scenery around us. Thank you so <br> much! Highly recommend!"
+            </span> <br>
+            <span>
+                Yuly 10, 2019
+            </span>
+        </div>
+        <div class="iframe" id="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.2011875514722!2d-0.13641168422995237!3d51.50952487963549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d1584a4603%3A0x9e81906dbf96f23f!2zMjQtMzYgUmVnZW50IFN0LCBTdC4gSmFtZXMncywgTG9uZG9uIFNXMVkgNFFGLCDQktC10LvQuNC60L7QsdGA0LjRgtCw0L3QuNGP!5e0!3m2!1sru!2sua!4v1617707674501!5m2!1sru!2sua" >
+            </iframe>
+        </div>
+        <div class="red-tours">
+            <span>
+                Want to know more about our tours?
+            </span>
+            <a href="#contacts">Contact us</a>
+        </div>
+        <div id="about">
+            <div class="img-for-funny-bikes">
+                <img src="img/bike for about.jpg" alt="">
+            </div>
+            <div class="about-funny-bikes">
+                <span>
+                    About Funny Bikes
+                </span>
+                <p>
+                    We were founded in 2010 by two bike enthusiasts David and Peter. Our proficient team is passionate about bikes and is highly trained to provide clients with the highest level of service. We offer an extensive fleet of bikes and cycling gear for rent. Whether you want to ride with us on a day trip or join us on our extended tour, our knowledgeable guides will join you on a memorable lifetime adventure. Check out our routes and enjoy the breathtaking scenery of our area!
+                </p>
+            </div>
+        </div>
+        
+        <div>
+            <div id="ourteam">
+                <h2>Our Team</h2>
+            </div>
+            <div class="our-team">
+                <div>
+                    <img src="" alt="">
+                    <h3>Andrew Shimmer</h3>
+                    <p>Repairs Magician</p>
+                    <p>With a profound knowledge of bicycle mechanics and a passion for all things outdoors, Andrew was a perfect fit to join Funny Bikes as a professional bike repair technician.</p>
+                </div>
+            </div>
+            <div class="our-team">
+                <div>
+                    <img src="" alt="">
+                    <h3>Ann Maisner</h3>
+                    <p>President and Founder</p>
+                    <p>Ann is the president and founder of Funny Bikes with over 10 years of expertise in the bicycle business. She is a huge fan of hiking, biking, and skiing.</p>
+                </div>
+            </div>        
+            <div class="our-team">
+                <div>
+                    <img src="" alt="">
+                    <h3>Helen Stone</h3>
+                    <p>Tour Guide</p>
+                    <p>Helen has years of experience of bicycle tour guiding. Her passion for biking and exploring new places brought her to Funny Bikes. She is our professional tour guide.</p>
+                </div>
+            </div>
+        </div>
+        <!--Bohdan code finish-->
+
+        <!--Denis code start-->
+        <div class="why-choose-us">
+            <div>
+                <h2>Why Choose Us</h2>
+            </div>
+            <div class="mini-bike">
+                <div><img src="img/minibike.svg" alt="Minibike"></div>
+                <div>
+                    <h3>Experienced repairs team</h3>
+                    <p>All our bikes are carefully maintained by our team of repairs magicians.</p>          
+                </div>
+            </div>
+            <div class="helments">
+                <div><img src="img/helment.svg" alt="Helments"></div>
+                <div>
+                    <h3>Helmets</h3>
+                    <p>Additionally, we provide cycling helmets and lights if needed.</p>          
+                </div>
+            </div>
+            <div class="locks">
+                <div><img src="img/lock.svg" alt="Locks"></div>
+                <div>
+                    <h3>Locks</h3>
+                    <p>Our bikes come with locks and baskets for your comfort and safety.</p>          
+                </div>
+            </div>
+            <div class="delivery">
+                <div><img src="img/delivery.svg" alt="Delivery"></div>
+                <div>
+                    <h3>Delivery</h3>
+                    <p>Rent a bike, and we will deliver it to any location at no charge.</p>          
+                </div>
+            </div>
+        </div>
+        <div class="news" id="news">
+            <div>
+                <h2>News</h2>
+            </div>
+            <div class="bike-sharing">
+                <strong><p>Bike-Sharing Access for 3 Days is Back on Sale!</p></strong>
+                <p>01 September</p>
+                <p>The weekend is almost here, and we have decided to turn on the Weekend access once more. Have three-day access and make tours paying only after the 61st minute of your ride.</p>
+            </div>
+            <div class="take-part">
+                <strong><p>Take Part in the Night Bike Parade on the 24th of August!</p></strong>
+                <p>22 August</p>
+                <p>The Parade will start at the Independence Square at 10:00pm. The route will cover about 20 kilometers. Space travel will be the theme of the parade. We have prepared a few surprises for the winners: a new iPhone, special offers on bike rentals, and a free repairs subscription.</p>
+            </div>
+            <div class="ptice-cut">
+                <strong><p>Price Cut</p></strong>
+                <p>29 July</p>
+                <p>Please take notice, the seasonal access price will be decreased since July 28th: <br>
+                "Season" access price - $90, <br>
+                "Season 45 mins" access price - $19. <br>
+                Enjoy your biking tours with us!</p>
+            </div>
+        </div>
+        <div class="rental-terms" id="rentalterms">
+            <div>
+                <h2>Rental Terms</h2>
+            </div>
+            <div>
+                <div class="rental-blocks">
+                    <strong>Security Deposit</strong>
+                    <p>We ask a security deposit on all bikes or cycling gear you rent. You can make a payment via a debit or credit card. We cannot return you money until the gear is returned.</p>
+                </div>
+                <div class="rental-blocks">
+                    <strong>Age Restrictions</strong>
+                    <p>If you want to rent a bike, you have to be at least <strong>18 years old</strong>. Don't forget to bring your passport or driver’s license. Younger participants need to be accompanied by a parent or guardian.</p>
+                </div>
+                <div class="rental-blocks">
+                    <strong>Helmets</strong>
+                    <p>Additionally, we provide all our clients with mandatory helmets fitted right to your size. Be careful on the road!</p>
+                </div>
+                <div class="rental-blocks">
+                    <strong>Damage</strong>
+                    <p>If you want to rent a bike or any cycling gear, you will be responsible for it until the time of return. The theft and any possible bike damage are included.</p>
+                </div>
+                <div class="rental-blocks">
+                    <strong>Riding Rules</strong>
+                    <p>All the renters have to stick to traffic rules, signs, laws, and regulations during the riding trip. It is advisable not to use smartphones or cameras..</p>
+                </div>
+                <div class="rental-blocks">
+                    <strong>Returning Equipment</strong>
+                    <p>Return our bike or gear at least 15 minutes prior to our closing time to check it out. We usually work till 6pm in spring and 7pm in summer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="contacts" id="contacts">
+            <div>
+                <h2>Contacts</h2>
+                <p>If you have any questions related to our tours or if you want to <br>
+                    rent a bike or cycling gear, feel free to get in touch with us.</p>
+                <div class="address-hours-contacts">
+                    <div class="address">
+                        <div><h3>Address</h3></div>
+                    <div><p>3611 Silas Trail Suite 927 <br>
+                        Port Yasmeenland, PY 20061</p>
+                    </div>
+                    </div>
+                    <div class="hours">
+                        <div><h3>Hours</h3></div>
+                    <div><p>Monday-Saturday: 11am-9pm <br>
+                        Sunday: 11am-7pm</p>
+                    </div>
+                    </div>
+                    <div class="contacts1">
+                        <div><h3>Contacts</h3></div>
+                    <div><p><a href="#">+1 (234) 567 89 00</a> <br>
+                        <a href="#">funnyy.bikes@email.com</a></p>
+                    </div>
+                    </div>
+                </div>    
+            </div>
+            <div class="form2">
+                <form action="#" method="POST">
+                    <label>
+                        <input type="text" name="username" placeholder="Name*" required>
+                    </label>
+                    <br>
+                    <label>
+                        <input type="tel" name="phone-number" placeholder="Phone number*" required>
+                    </label>  
+                    <br>
+                    <label>
+                        <input type="email" name="email" placeholder="Email*" required>
+                    </label>  
+                    <br>
+                    <label>
+                        <input type="text" name="message" placeholder="Type your message">
+                    </label>
+                    <br>
+                        <input type="submit" value="Contact us">
+                </form>
+            </div>
+        </div>
+        <!--Denis code finish-->
     </main>
     <footer>
-        
+        <!--Denis code start-->
+        <div class="footer">
+            <div class="first-foot">
+                <div class="first-foot1">
+                    <div class="first-foot1-logo">
+                        <a href="index.html"><h2>Funny Bikes</h2></a>
+                        <p>Our proficient team is passionate about bikes and is highly trained to provide clients with the highest level of service.</p>
+                    </div>
+                    <div class="social-networks">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">YouTube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="second-foot">
+                <div class="second-foot2">
+                    <ul>
+                        <li><a href="#bikes">Bicycle Types</a></li>
+                        <li><a href="#accessories">Accessories</a></li>
+                        <li><a href="#tours">Group Tours</a></li>
+                        <li><a href="#location">Location</a></li>
+                        <li><a href="#ourteam">Our Team</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="third-foot">
+                <div class="third-foot2">
+                    <ul>
+                        <li><a href="#mostpopularbikes">Bikes</a></li>
+                        <li><a href="#price">Price</a></li>
+                        <li><a href="#tours">Tours</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#repairs">Repairs</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fourth-foot">
+                <div class="fourth-foot2">
+                    <ul>
+                        <li><a href="#howtorentabike">How to rent a bike</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                        <li><a href="#rentalterms">Rental Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <div class="created-by">
+            <p>© Created by</p>
+            </div>
+            <div class="all">
+                <p>All rights Reserved</p>
+            </div>
+        </div>
+        <!--Denis code fiinish-->
     </footer>
 </body>
 </html>
