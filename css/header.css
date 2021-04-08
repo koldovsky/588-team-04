@@ -3,7 +3,7 @@
     margin: 0;
 }
 #home {
-    background-image: url(img/photo-logo-for-header.jpg);
+    background-image: url(/img/photo-logo-for-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
