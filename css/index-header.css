@@ -2,72 +2,64 @@
     padding: 0;
     margin: 0;
 }
-#home {
-    background-image: url(image-css/photo-logo-for-header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.header-menu-div-flex {
-    display: flex;
-    width: 100%;
-    height: 105px;
-}
-.logo{
-    width: 307px;
-    height: 60px;
-    margin-left: 175px;
-    margin-top: 24px;
 
+:root {
+    --color-font-for-headings: rgb(244, 244, 244);
+    --cplor-font-font-for-paragraphs: rgb(231, 221, 221);
+    --color-red: #E03033;
+    scroll-behavior: smooth;
 }
-.logo a {
-    font-family: 'Playfair Display', serif;
-    font-size: 32px;
-    font-weight: 900;
-    color: rgb(244,244,244);
+
+a {
     text-decoration: none;
 }
-.menu{
-    width: 600px;
-    height: 50px;
-    margin-left: 327px;
-    margin-top: 37px;
-}
-.menu a{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    color: rgb(244,244,244);
-    text-decoration: none;
-    margin: 15px 18px 15px 18px;
-    width: 40px;
-    height: 20px;
-    transition: o.5s;
-}
-.menu a:hover{
-    color: #E03033;
-}
-.big-text-under-logo {
-    padding-top: 255px;
-    padding-bottom: 250px;
-    margin-left: 175px;
-}
-.big-text-under-logo h1{
-    font-family: 'Playfair Display', serif;
-    font-size: 115px;
+
+
+.logo {
+    font-family: 'Playfair Display', serif;;
+    font-size: 34px;
     font-weight: 900;
-    line-height: 139px;
-    color: rgb(244,244,244);
+    line-height: 41px;
+    margin-left: 25px;
+    margin-top: 30px;
 }
-.text-under-h1 {
+
+.logo a{
+    /*color: var(--color-font-for-headings);*/
+    
+}
+
+.header-menu-div-flex{
+    display: flex;
+}
+
+.menu {
     font-family: 'Montserrat', sans-serif;
-    font-size: 19px;
-    font-weight: 700;
-    color: rgb(181,181,181);
-    margin-top: 15px;
+    justify-content: flex-end;
 }
-.text-under-h1 span{
-    color:  #E03033;
-    border-right: 2px solid white;
-    padding-right: 5px;
+
+#burger-checkbox {
+    display: none;
+    
 }
+
+.menu {
+    display: none;
+}
+
+input:checked ~ .menu  {
+    display: block;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--color-font-for-headings);
+}
+
+.menu a:hover {
+    font-weight: bold;
+    color: var(--color-red);
+}
+
