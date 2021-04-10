@@ -5,13 +5,14 @@
 
 :root {
     --color-font-for-headings: rgb(244, 244, 244);
-    --cplor-font-font-for-paragraphs: rgb(231, 221, 221);
+    --color-font-font-for-paragraphs: rgb(231, 221, 221);
     --color-red: #E03033;
     --color-darak-gray: rgb(181, 181, 181);
+    --background-dark: #222;
     scroll-behavior: smooth;
 }
 
-body{
+#home{
     max-width: 1150px;
     margin: auto;
 }
@@ -20,7 +21,7 @@ a {
     text-decoration: none;
 }
 
-#home {
+.container {
     background-image: url(image-css/photo-logo-for-header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -70,7 +71,7 @@ input:checked ~ .menu  {
     display: block;
     text-decoration: none;
     text-transform: uppercase;
-    color: var(--color-font-for-headings);
+    color: var(--color-font-font-for-paragraphs);
 }
 
 .menu a:hover {
@@ -107,21 +108,21 @@ input:checked ~ .menu  {
 
 @media(min-width:760px) {
     .logo {
-    font-size: 39px;
-    font-weight: 900;
-    line-height: 47px;
+        font-size: 39px;
+        font-weight: 900;
+        line-height: 47px;
     }
 
     .big-text-under-logo h1{
-    font-size: 88px;
-    font-weight: 900;
-    line-height: 106px;
+        font-size: 88px;
+        font-weight: 900;
+        line-height: 106px;
     }
 
     .big-text-under-logo {
-    width: 743px;
-    height: 300px;
-    padding: 192px 32px 190px 32px;
+        width: 743px;
+        height: 300px;
+        padding: 192px 32px 190px 32px;
     }
 
     .big-text-under-logo p {
@@ -131,21 +132,21 @@ input:checked ~ .menu  {
 
 @media(min-width:990px) {
     .logo {
-    font-size: 32px;
-    font-weight: 900;
-    line-height: 47px;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 47px;
     }
 
     .big-text-under-logo h1{
-    font-size: 115px;
-    font-weight: 900;
-    line-height: 140px;
+        font-size: 115px;
+        font-weight: 900;
+        line-height: 140px;
     }
 
     .big-text-under-logo {
-    width: 743px;
-    height: 300px;
-    padding: 330px 32px 255px 32px;
+        width: 743px;
+        height: 300px;
+        padding: 330px 32px 255px 32px;
     }
 
     .big-text-under-logo p {
@@ -156,11 +157,16 @@ input:checked ~ .menu  {
         display: none;
     }
 
+    .header-menu-div-flex {
+        justify-content: space-between;
+    }
+
     #home .menu {
         display: flex;
         width: 558px;
         height: 50px;
         margin-top: 30px;
+        
     }
 
     #home .menu a{

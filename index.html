@@ -18,29 +18,31 @@
 </head>
 
 <body>
-    <header id="home">
-        <nav class="header-menu">
-            <div class="header-menu-div-flex">
-                <div class="logo">
-                    <a href="index.html">Bikes for Fun</a>
+    <div class="container">
+        <header id="home">
+            <nav class="header-menu">
+                <div class="header-menu-div-flex">
+                    <div class="logo">
+                        <a href="index.html">Bikes for Fun</a>
+                    </div>
+                    <label class="burger-icon" for="burger-checkbox">☰</label>
+                    <input type="checkbox" id="burger-checkbox">
+                    <div class="menu">
+                        <a href="#bikes">Bikes</a>
+                        <a href="#price">Price</a>
+                        <a href="#tours">Tours</a>
+                        <a href="#about">About</a>
+                        <a href="#repairs">Repairs</a>
+                        <a href="#contacts">Contacts</a>
+                    </div>
                 </div>
-                <label class="burger-icon" for="burger-checkbox">☰</label>
-                <input type="checkbox" id="burger-checkbox">
-                <div class="menu">
-                    <a href="#bikes">Bikes</a>
-                    <a href="#price">Price</a>
-                    <a href="#tours">Tours</a>
-                    <a href="#about">About</a>
-                    <a href="#repairs">Repairs</a>
-                    <a href="#contacts">Contacts</a>
+                <div class="big-text-under-logo">
+                    <h1>Bicycle <br> Rentails</h1>
+                    <p class="text-under-h1"><span>Washington DC</span> Explore the city with our bikes!</p>
                 </div>
-            </div>
-            <div class="big-text-under-logo">
-                <h1>Bicycle <br> Rentails</h1>
-                <p class="text-under-h1"><span>Washington DC</span> Explore the city with our bikes!</p>
-            </div>
-        </nav>
-    </header>
+            </nav>
+        </header>
+    </div>
     <main>
         <!--  Bohdan CODE Start-->
         <div class="bikess">
@@ -83,49 +85,51 @@
             <!--Bohdan Code finish-->
 
             <!-- Denis Work Start-->
-            <div class="most-popular-bikes" id="mostpopularbikes">
-                <div class="most-popular-bike-heading">
-                    <h2>Most Popular Bikes</h2>
-                </div>
-                <div class="most-popular-bikes-blocks">
-                    <div class="most-popular-bikes-separate-block1">
-                        <img src="img/photo-bike-one.jpg" alt="Bike Model Road">
-                        <h3>Redlight</h3>
-                        <p>Ride the slow lane with our 3-speed bike <br>while enjoying every second of our city’s
-                            <br>breathtaking views.</p>
-                        <ul>
-                            <li>-3 hours <span>$9.95</span></li>
-                            <li>-6 hours <span>$12.45</span></li>
-                            <li>-1 day <span>$14.95</span></li>
-                            <li>-Extra day <span>$10.95</span></li>
-                        </ul>
-                        <button>Book now</button>
+            <div class="container-for-most-popular-bikes">
+                <div class="most-popular-bikes" id="mostpopularbikes">
+                    <div class="most-popular-bike-heading">
+                        <h2>Most Popular Bikes</h2>
                     </div>
-                    <div class="most-popular-bikes-separate-block2">
-                        <img src="img/photo-bike-two.jpg" alt="Bike Model RoadPlus ">
-                        <h3>Wanderlust Premium</h3>
-                        <p>Want to take a turn towards the wilderness? <br>This is the best bike for touring around the
-                            <br>countryside.</p>
-                        <ul>
-                            <li>-3 hours <span>$9.95</span></li>
-                            <li>-6 hours <span>$12.45</span></li>
-                            <li>-1 day <span>$14.95</span></li>
-                            <li>-Extra day <span>$10.95</span></li>
-                        </ul>
-                        <button>Book now</button>
-                    </div>
-                    <div class="most-popular-bikes-separate-block3">
-                        <img src="img/photo-bike-three.jpg" alt="Bike Model Whinter">
-                        <h3>Flashy Commuter</h3>
-                        <p>Take advantage of our single speed bicycle <br>and explore every corner of our wonderful city <br>on
-                            two wheels.</p>
-                        <ul>
-                            <li>-3 hours <span>$9.95</span></li>
-                            <li>-6 hours <span>$12.45</span></li>
-                            <li>-1 day <span>$14.95</span></li>
-                            <li>-Extra day <span>$10.95</span></li>
-                        </ul>
-                        <button>Book now</button>
+                    <div class="most-popular-bikes-blocks">
+                        <div class="most-popular-bikes-separate-block1">
+                            <img src="img/photo-bike-one.jpg" alt="Bike Model Road">
+                            <h3>Redlight</h3>
+                            <p>Ride the slow lane with our 3-speed bike <br>while enjoying every second of our city’s
+                                <br>breathtaking views.</p>
+                            <ul>
+                                <li>-3 hours <span>$9.95</span></li>
+                                <li>-6 hours <span>$12.45</span></li>
+                                <li>-1 day <span>$14.95</span></li>
+                                <li>-Extra day <span>$10.95</span></li>
+                            </ul>
+                            <button>Book now</button>
+                        </div>
+                        <div class="most-popular-bikes-separate-block2">
+                            <img src="img/photo-bike-two.jpg" alt="Bike Model RoadPlus ">
+                            <h3>Wanderlust Premium</h3>
+                            <p>Want to take a turn towards the wilderness? <br>This is the best bike for touring around the
+                                <br>countryside.</p>
+                            <ul>
+                                <li>-3 hours <span>$9.95</span></li>
+                                <li>-6 hours <span>$12.45</span></li>
+                                <li>-1 day <span>$14.95</span></li>
+                                <li>-Extra day <span>$10.95</span></li>
+                            </ul>
+                            <button>Book now</button>
+                        </div>
+                        <div class="most-popular-bikes-separate-block3">
+                            <img src="img/photo-bike-three.jpg" alt="Bike Model Whinter">
+                            <h3>Flashy Commuter</h3>
+                            <p>Take advantage of our single speed bicycle <br>and explore every corner of our wonderful city <br>on
+                                two wheels.</p>
+                            <ul>
+                                <li>-3 hours <span>$9.95</span></li>
+                                <li>-6 hours <span>$12.45</span></li>
+                                <li>-1 day <span>$14.95</span></li>
+                                <li>-Extra day <span>$10.95</span></li>
+                            </ul>
+                            <button>Book now</button>
+                        </div>
                     </div>
                 </div>
             </div>
