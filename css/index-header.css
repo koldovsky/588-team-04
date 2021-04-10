@@ -7,16 +7,28 @@
     --color-font-for-headings: rgb(244, 244, 244);
     --cplor-font-font-for-paragraphs: rgb(231, 221, 221);
     --color-red: #E03033;
+    --color-darak-gray: rgb(181, 181, 181);
     scroll-behavior: smooth;
+}
+
+body{
+    max-width: 1150px;
+    margin: auto;
 }
 
 a {
     text-decoration: none;
 }
 
+#home {
+    background-image: url(image-css/photo-logo-for-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 .logo {
-    font-family: 'Playfair Display', serif;;
+    font-family: 'Playfair Display', serif;
     font-size: 34px;
     font-weight: 900;
     line-height: 41px;
@@ -25,7 +37,7 @@ a {
 }
 
 .logo a{
-    /*color: var(--color-font-for-headings);*/
+    color: var(--color-font-for-headings);
     
 }
 
@@ -35,7 +47,10 @@ a {
 
 .menu {
     font-family: 'Montserrat', sans-serif;
-    justify-content: flex-end;
+}
+
+.burger-icon {
+    color: white;
 }
 
 #burger-checkbox {
@@ -63,3 +78,94 @@ input:checked ~ .menu  {
     color: var(--color-red);
 }
 
+.big-text-under-logo {
+    height: 211px;
+    padding: 155px 15px 155px 15px;
+}
+
+.big-text-under-logo h1{
+    font-family: 'Playfair Display', serif;
+    color: var(--color-font-for-headings);
+    font-size: 62px;
+    font-weight: 900;
+    line-height: 75px;
+}
+
+.big-text-under-logo p{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-darak-gray);
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 28px;
+    padding-top: 50px;
+}
+.big-text-under-logo span {
+    color: var(--color-red);
+    border-right: 2px solid white;
+    padding-right: 5px;
+}
+
+@media(min-width:760px) {
+    .logo {
+    font-size: 39px;
+    font-weight: 900;
+    line-height: 47px;
+    }
+
+    .big-text-under-logo h1{
+    font-size: 88px;
+    font-weight: 900;
+    line-height: 106px;
+    }
+
+    .big-text-under-logo {
+    width: 743px;
+    height: 300px;
+    padding: 192px 32px 190px 32px;
+    }
+
+    .big-text-under-logo p {
+        margin-top: -35px;
+    }
+}
+
+@media(min-width:990px) {
+    .logo {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 47px;
+    }
+
+    .big-text-under-logo h1{
+    font-size: 115px;
+    font-weight: 900;
+    line-height: 140px;
+    }
+
+    .big-text-under-logo {
+    width: 743px;
+    height: 300px;
+    padding: 330px 32px 255px 32px;
+    }
+
+    .big-text-under-logo p {
+        margin-top: -35px;
+    }
+
+    .burger-icon {
+        display: none;
+    }
+
+    #home .menu {
+        display: flex;
+        width: 558px;
+        height: 50px;
+        margin-top: 30px;
+    }
+
+    #home .menu a{
+        font-size: 14px;
+        font-weight: 600;
+        margin: 15px 20px 15px 20px;
+    }
+}
