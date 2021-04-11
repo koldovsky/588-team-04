@@ -5,10 +5,10 @@
 
 :root {
     --color-font-for-headings: rgb(244, 244, 244);
-    --color-font-font-for-paragraphs: rgb(231, 221, 221);
+    --color-font-for-paragraphs: rgb(231, 221, 221);
     --color-red: #E03033;
     --color-darak-gray: rgb(181, 181, 181);
-    --background-dark: #222;
+    --background-dark: rgb(25, 25, 25);
     scroll-behavior: smooth;
 }
 
@@ -71,7 +71,7 @@ input:checked ~ .menu  {
     display: block;
     text-decoration: none;
     text-transform: uppercase;
-    color: var(--color-font-font-for-paragraphs);
+    color: var(--color-font-for-paragraphs);
 }
 
 .menu a:hover {
