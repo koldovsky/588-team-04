@@ -1,3 +1,4 @@
+/*STYLES START FOR CONTAINER-FOR-MOST-POPULAR-BIKES*/
 .container-for-most-popular-bikes {
     background-color: var(--background-dark);
 }
@@ -85,8 +86,84 @@
 .last-button {
     padding-bottom: 100px;
 }
+/*STYLES FINISH FOR CONTAINER-FOR-MOST-POPULAR-BIKES
+----------------------------------------------------*/
+/*STYLES FINISH FOR CONTAINER-FOR-REPAIRS*/
+.container-for-repairs {
+    background-color: var(--more-dark);
+}
+
+#repairs {
+    max-width: 1150px;
+    margin: auto;
+    padding: 85px 24px 90px 24px;
+}
+
+.repairs {
+    text-align: center;
+}
+
+.repairs h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--color-font-for-headings);
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 41px;
+}
+
+.info-block-after-headind {
+    margin-top: 50px;
+}
+.info-block-after-headind img {
+    display: block;
+    width: 100%;
+}
+
+.paragraph-text {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-paragraphs);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 50px;
+}
+
+.small-photo {
+    width: 70px;
+    height: 70px;
+    padding-right: 15px;
+}
+
+.small-photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.image-and-photo {
+    display: flex;
+    flex: 2;
+    margin-top: 20px;
+}
+
+.text-with-small-photo {
+    flex: 1;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-paragraphs);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 15px;
+}
+
+.mike {
+    margin-top: 20px;
+}
+
+/*STYLES FINISH FOR CONTAINER-FOR-REPAIRS*/
 
 @media(min-width:760px) {
+    /*MEDIA START FOR CONTAINER-FOR-MOST-POPULAR-BIKES*/
     .most-popular-bike-heading h2 {
         font-size: 39px;
         line-height: 47px;
@@ -97,9 +174,28 @@
         grid-template-columns: 1fr 1fr;
         
     }
+    /*MEDIA FINISH FOR CONTAINER-FOR-MOST-POPULAR-BIKES
+    --------------------------------------------------*/
+    /*MEDIA START FOR CONTAINER-FOR-REPAIRS*/
+    .repairs h2 {
+        font-size: 39px;
+        line-height: 47px;
+    }
+
+    .info-block-after-headind {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+    }
+
+    .all-text-under-heading {
+        margin-top: -50px;
+    }
+    /*MEDIA FINISH FOR CONTAINER-FOR-REPAIRS*/
 }
 
 @media(min-width:990px) {
+    /*MEDIA START FOR CONTAINER-FOR-MOST-POPULAR-BIKES*/
     .most-popular-bike-heading h2 {
         font-size: 45px;
         line-height: 54px;
@@ -109,4 +205,12 @@
         grid-template-columns: 1fr 1fr 1fr;
         
     }
+    /* MEDIA FINISH FOR CONTAINER-FOR-MOST-POPULAR-BIKES
+    ---------------------------------------------------*/
+    /*MEDIA START FOR CONTAINER-FOR-REPAIRS*/
+    .repairs h2 {
+        font-size: 45px;
+        line-height: 54px;
+    }
+    /*MEDIA FINISH FOR CONTAINER-FOR-REPAIRS*/
 }
