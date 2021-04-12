@@ -2,9 +2,11 @@
 :root {
    --dark: rgb(39, 39, 39);
    --gray-dark: #222222;
+   --text-color: rgb(231, 221, 221);
+   --gray-back-color: rgb(16,16,16);
    
 }
-
+/* Bike rentals blocks* start*/
 .container-for-main-start-three-blocks{
     background-color: var(--dark);
 }
@@ -33,7 +35,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    color: var(--color-font-for-paragraphs);
+    color: var(--text-color);
     margin-top: 20px;
 
 }
@@ -43,26 +45,224 @@
 
 @media(min-width:761px) {
     .bikess{
-        display: grid;
-        grid-template-columns: 1fr 1fr; 
+        display: flex;
+      
     }
-    .main-start-three-blocks h3 {
+    .main-start-three-blocks {
         padding: 80px 40px 80px 40px;
         font-size: 22px;
     }
-    .main-start-three-blocks-media-ipad {
-        
-    }
+
 }
 
 @media(min-width:991px) {
     .bikess {
+        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
     .main-start-three-blocks {
         padding: 120px 50px 120px 50px;
     }
 }
+/* Bike rentals blocks* finished*/
+
+/*Bicycle Types blocks* start*/
+ 
+#bikes {
+    background-color: var(--gray-back-color);
+    padding: 85px 24px 80px 24px;
+}
+
+.bicycle-types h2 {
+text-align: center;
+font-family: 'Playfair Display', serif;
+font-size: 34px;
+font-weight: 900;
+line-height: 41px;
+color: var(--color-font-for-headings);
+}
+
+.four-bicycles p {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+font-size: 22px;
+font-weight: 600;
+line-height: 29px;
+color: var(--text-color);
+margin-top: 20px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.four-bicycles img {
+    height: 70px;
+    width: 70px;
+    margin-top: 50px;
+}
+.foto-of-bicycles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(min-width:761px) {
+    .four-kind-of-bikes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 45px;
+    }
+    .bicycle-types h2 {
+        font-size: 39px;
+        font-weight: 900;
+        line-height: 47px;
+    }
+    .four-bicycles img  {
+        height: 100px;
+        width: 100px;
+        margin-top: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #bikes {
+        padding: 85px 32px 80px 32px;
+    }
+    .bicycle-types {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .four-bicycles p {
+        margin-top: 20px;
+    }
+}
+
+@media(min-width:991px) {
+    .four-kind-of-bikes {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .bicycle-types h2 {
+        font-size: 45px;
+        font-weight: 900;
+        line-height: 54px;
+    }
+    .four-bicycles img {
+        height: 100px;
+        width: 100px;
+    }
+    .four-bicycles p {
+        font-size: 23px;
+        font-weight: 600;
+        line-height: 30px;
+
+    }
+}
+
+/*Bicycle Types blocks* finished*/
+
+/*  Tag-along blocks* start*/
+
+.tag-along-of-bikes {
+    background-image: url(../img/bike-tag-along.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px 35px 60px 35px;
+}
+
+.bicycle-trailer-of-bikes {
+    background-image: url(../img/bicycle-trailer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px 35px 60px 35px;
+}
+
+.baby-seat-of-bikes {
+    background-image: url(../img/baby-seat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px 35px 60px 35px;
+}
+
+.tag-along-of-bikes p {
+font-family: 'Montserrat', sans-serif;
+font-size: 28px;
+font-weight: 400;
+line-height: 33px;
+text-align: center;
+color: var(--text-color);
+}
+
+.bicycle-trailer-of-bikes p {
+font-family: 'Montserrat', sans-serif;
+font-size: 28px;
+font-weight: 400;
+line-height: 33px;
+text-align: center;
+color: var(--text-color);
+}
+
+.baby-seat-of-bikes p {
+font-family: 'Montserrat', sans-serif;
+font-size: 28px;
+font-weight: 400;
+line-height: 33px;
+text-align: center;
+color: var(--text-color);
+}
+
+@media(min-width:761px) {
+    .tag-along-of-bikes {
+        padding: 80px 40px 80px 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+    .bicycle-trailer-of-bikes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 80px 40px 80px 40px;
+    }
+    .three-pic{
+         display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .baby-seat-of-bikes {
+        max-width: 100%;
+        padding: 80px 40px 80px 40px;
+    }
+}
+
+@media(min-width:991px) {
+     .three-pic {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+}
+.tag-along-of-bikes {
+padding: 120px 50px 120px 50px;
+font-size: 35px;
+font-weight: 400;
+line-height: 42px;
+text-align: center;
+}
+.bicycle-trailer-of-bikes {
+padding: 120px 50px 120px 50px;
+font-size: 35px;
+font-weight: 400;
+line-height: 42px;
+text-align: center;
+}
+.baby-seat-of-bikes {
+padding: 120px 50px 120px 50px;
+font-size: 35px;
+font-weight: 400;
+line-height: 42px;
+text-align: center;
+}
+}
+
+
+
 
 
 
