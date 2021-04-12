@@ -238,10 +238,72 @@
     margin-left: 230px;
     align-items: center;
 }
-/* STYLES FINISH FOR CONTAINER-PRICE-LIST-FOR-MOBILE-LIST*/
+/* STYLES FINISH FOR CONTAINER-PRICE-LIST-FOR-MOBILE-LIST
+-------------------------------------------------------*/
+/* STYLES START FOR CONTAINER-WHY-CHOOSE-US*/
+.container-for-why-choose-us {
+    background-color: var(--background-dark);
+}
+
+.why-choose-us {
+    max-width: 1150px;
+    margin: auto;
+    padding: 85px 24px 90px 24px;
+}
+
+.why-choose-us-heading {
+    text-align: center;
+}
+
+.why-choose-us-heading h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--color-font-for-headings);
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 41px;
+}
+
+.icon-for-icons-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
-@media(min-width:760px) {
+.icon-for-icons-text img {
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+
+.icons-text {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.text-after-icons h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-headings);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 29px;
+    margin-top: 20px;
+}
+
+.text-after-icons p {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-paragraphs);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+}
+/* STYLES FINISH FOR CONTAINER-WHY-CHOOSE-US*/
+
+
+
+@media(min-width:761px) {
     /*MEDIA START FOR CONTAINER-FOR-MOST-POPULAR-BIKES*/
     .most-popular-bike-heading h2 {
         font-size: 39px;
@@ -276,12 +338,31 @@
     .price-list-for-mobile {
         display: none;
     }
+    /*MEDIA FINISH FOR CONTAINER-PRICE-LIST-FOR-MOBILE-LIST
+    -----------------------------------------------------*/
+    /*MEDIA START FOR CONTAINER-WHY-CHOOSE-US*/
+    .why-choose-us-heading h2 {
+        font-size: 39px;
+        line-height: 47px;
+    }
     
+    .icon-text-flex-for-tablet {
+        display: flex;
+    }
 
-    /*MEDIA FINISH FOR CONTAINER-PRICE-LIST-FOR-MOBILE-LIST*/
+    .icon-for-icons-text img {
+        display: block;
+        width: 100px;
+        height: 100px;
+    }
+
+    .icons-text {
+        text-align: start;
+    }
+    /*MEDIA FINISH FOR CONTAINER-WHY-CHOOSE-US*/
 }
 
-@media(min-width:990px) {
+@media(min-width:991px) {
     /*MEDIA START FOR CONTAINER-FOR-MOST-POPULAR-BIKES*/
     .most-popular-bike-heading h2 {
         font-size: 45px;
@@ -305,5 +386,24 @@
     .price-list-for-mobile {
         display: none;
     }
-    /*MEDIA FINISH FOR CONTAINER-PRICE-LIST-FOR-MOBILE-LIST*/
+    /*MEDIA FINISH FOR CONTAINER-PRICE-LIST-FOR-MOBILE-LIST
+    -----------------------------------------------------*/
+    /*MEDIA START FOR CONTAINER-WHY-CHOOSE-US*/
+    .why-choose-us-heading h2 {
+        font-size: 45px;
+        line-height: 54px;
+    }
+
+    .icons-text {
+        display: flex;
+    }
+
+    .icon-for-icons-text{
+        flex: 1;
+    }
+
+    .text-after-icons {
+        flex: 2;
+    }
+    /*MEDIA FINISH FOR CONTAINER-WHY-CHOOSE-US*/
 }
