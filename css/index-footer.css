@@ -1,0 +1,38 @@
+.container-for-footer {
+    background-color: var(--background-dark);
+}
+
+footer {
+    max-width: 1150px;
+    margin: auto;
+}
+
+.footer {
+    padding: 85px 24px 15px 24px;
+}
+
+.first-foot-logo{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.first-foot-logo h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--color-font-for-headings);
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 34px;
+}
+
+.first-foot-logo p {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-paragraphs);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 5px;
+}
+
+.icon-fa {
+    color: var(--color-red);
+}
