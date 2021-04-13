@@ -2,12 +2,9 @@
     background-color: var(--background-dark);
 }
 
-footer {
+.footer {
     max-width: 1150px;
     margin: auto;
-}
-
-.footer {
     padding: 85px 24px 15px 24px;
 }
 
@@ -33,6 +30,104 @@ footer {
     margin-top: 5px;
 }
 
+.social-networks-fa {
+    text-align: center;
+    margin-top: 30px;
+}
+
 .icon-fa {
     color: var(--color-red);
+    border: 2px solid var(--color-red);
+    border-radius: 50%;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
+    transition: 0.2s;
+}
+
+.icon-fa:hover {
+    color: var(--background-dark);
+    background-color: var(--color-red);
+}
+
+.footer-block-under-heading {
+    margin-top: 20px;
+}
+
+.footer-block-under-heading-list {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-block-under-heading-list ul li {
+    list-style-type: none;
+    margin: 20px 0px 20px 0px;
+}
+
+.footer-block-under-heading-list ul li a {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-paragraphs);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.footer-block-under-heading-list ul li a:hover {
+    color: var(--color-red);
+    font-weight: 600;
+}
+
+.footer-end-class {
+    max-width: 1150px;
+    margin: auto;
+}
+
+.created-by {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-paragraphs);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+}
+
+.created-by p {
+    margin-top: 20px;
+}
+
+@media(min-width:760px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 30px;
+    }
+
+    .first-foot-logo {
+        text-align: start;
+    }
+
+    .social-networks-fa {
+        text-align: start;
+    }
+
+    .icon-fa {
+        margin: 0;
+        padding: 7px 7px 7px 7px;
+    }
+
+    .footer-block-under-heading-list {
+        margin-top: -30px;
+    }
+
+    .created-by {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 32px 15px 32px;
+    }
+
+    .created-by-paragraph {
+        margin-top: -20px;
+
+    }
+
 }
