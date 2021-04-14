@@ -238,6 +238,10 @@
     margin-left: 230px;
     align-items: center;
 }
+
+.price-list-for-more-sizes {
+    display: none;
+}
 /* STYLES FINISH FOR CONTAINER-PRICE-LIST-FOR-MOBILE-LIST
 -------------------------------------------------------*/
 /* STYLES START FOR CONTAINER-WHY-CHOOSE-US*/
@@ -554,9 +558,9 @@
     }
     /*MEDIA FINISH FOR CONTAINER-FOR-REPAIRS
     ------------------------------------------------------*/
-    /*MEDIA START FOR CONTAINER-PRICE-LIST-FOR-MOBILE-LIST*/
+    /*MEDIA START FOR CONTAINER-PRICE-LIST-FOR-LIST*/
     
-    /*MEDIA FINISH FOR CONTAINER-PRICE-LIST-FOR-MOBILE-LIST
+    /*MEDIA FINISH FOR CONTAINER-PRICE-LIST-FOR--LIST
     -----------------------------------------------------*/
     /*MEDIA START FOR CONTAINER-WHY-CHOOSE-US*/
     .why-choose-us-heading h2 {
