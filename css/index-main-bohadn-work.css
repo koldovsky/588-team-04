@@ -6,6 +6,9 @@
    --gray-back-color: rgb(16,16,16);
    --back-icon-color: rgb(45,45,45);
    --back-to-media: rgb(24,24,24);
+   --color-for-p-in-form: rgb(229,221,221);
+   --back-for-form-color: rgb(34,34,34);
+   --back-for-input-in-form: rgb(84,84,84);
    
 }
 /* Bike rentals blocks* start*/
@@ -350,13 +353,132 @@ color: var(--text-color);
     #how-to-rent-a-bike h2 {
         font-size: 39px;
         line-height: 47px;
+    }
+    .bikes-img-strasform img {
+        width: 40px;
+        height: 40px;
+        padding: 15px 15px 15px 15px;
+    }
 
+    .bikes-img-strasform {
+        width: 70px;
+        height: 70px;
     }
 }
 
+@media(min-width:991px) {
+    #how-to-rent-a-bike h2 {
+        font-size: 45px;
+        line-height: 54px;
+        
+    }
+}
+
+/*  rent-bike blocks finished */
+
+/*  Form blocks start*/
+
+
+.counteiner-of-wanna-bike{
+    background-image: url(../img/back-bike-rent.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#wanna-bike {
+    max-width: 1150px;
+    margin: auto;
+    padding: 90px 24px 90px 24px;
+}
+
+.wana-rent-bike h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 41px;
+    text-align: center;
+    color: var(--color-font-for-headings);
+}
+
+.fill-bike p {
+    font-family: Muli, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    color: var(--color-for-p-in-form);
+    margin-top: 25px;
+}
+
+.back-for-form-of-bike {
+    background-color: var(--back-for-form-color);
+    padding: 39px 47px 39px 47px;
+    text-align: center;
+}
+
+.form-of-rent {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-of-rent input {
+    background-color: var(--back-for-input-in-form);
+    padding: 14px 30px 14px 30px;
+    margin-top: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-for-form-input-text);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.form-of-rent-button {
+    background-color: var(--color-red);
+    margin-top: 12px;
+    padding: 14px 30px 14px 30px;
+    color: var(--color-for-p-in-form);
+}
+
+@media(min-width:761px) {
+
+ .form-of-rent-a-bike {
+     display: grid;
+     grid-template-columns: 1fr;
+ }
+
+    .wana-rent-bike h2 {
+        font-size: 39px;
+        line-height: 47px;
+    }
+
+    .fill-bike p {
+        line-height: 27px;
+    }
+#wanna-bike {
+    padding: 80px 32px 80px 32px;
+}
+
+.back-for-form-of-bike {
+    padding: 46px 58px 46px 58px;
+}
+
+
+}
+
+  
+
+
+
+
+
+
+
+
+
    
 
-@media(min-width:991px) 
+
 
 
 
