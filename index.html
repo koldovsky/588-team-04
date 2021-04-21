@@ -33,15 +33,18 @@
                     <div class="logo">
                         <a href="index.html">Bikes for Fun</a>
                     </div>
-                    <label class="burger-icon" for="burger-checkbox">☰</label>
-                    <input type="checkbox" id="burger-checkbox">
-                    <div class="menu">
-                        <a href="#bikes">Bikes</a>
-                        <a href="#price">Price</a>
-                        <a href="#tours">Tours</a>
-                        <a href="#about">About</a>
-                        <a href="#repairs">Repairs</a>
-                        <a href="#contacts">Contacts</a>
+                    <div class="menu_container_flex">
+                        <div class="menu_icon">
+                            <span></span>
+                        </div>
+                        <div class="menu">
+                            <a data-goto=".bikes" href="#bikes" class="menu_link">Bikes</a>
+                            <a data-goto=".price" href="#price" class="menu_link">Price</a>
+                            <a data-goto=".tours" href="#tours" class="menu_link">Tours</a>
+                            <a data-goto=".about" href="#about" class="menu_link">About</a>
+                            <a data-goto=".repairs" href="#repairs" class="menu_link">Repairs</a>
+                            <a data-goto=".contacts" href="#contacts" class="menu_link">Contacts</a>
+                        </div>
                     </div>
                 </div>
                 <div class="big-text-under-logo">
@@ -987,6 +990,7 @@
         </div>
     </footer>
     <!--Denis code fiinish-->
+    <script src="js/burger-menu.js "></script>
 </body>
 
 </html>

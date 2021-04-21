@@ -466,9 +466,22 @@ color: var(--text-color);
 
 }
 
+
+
+
+/* ZMENSHUV TOBI KARTINKY V ROZDILI ABOUT FUNNI BIKES
+POTOM UDALUSH CSS I ZROBYSH ZANOVO TAK YAK TOBI TREBA)))*/
   
+.img-for-funny-bikes {
+    padding: 0px 24px 0px 24px;
+}
 
+.img-for-funny-bikes img {
+    width: 100%;
+    height: auto;
+}
 
+/* ZMENSHUV TOBI KARTINKY V ROZDILI ABOUT FUNNI BIKES*/
 
 
 

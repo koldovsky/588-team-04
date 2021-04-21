@@ -13,7 +13,12 @@
     --color-for-form: rgb(31, 31, 31);
     --color-for-form-input: rgb(34, 34, 34);
     --color-for-form-input-text: rgb(181, 181, 181);
+    --color-for-menu-burger : rgba(0, 0, 0, 0.9);
     scroll-behavior: smooth;
+}
+
+body._lock {
+    overflow: hidden;
 }
 
 #home{
@@ -48,28 +53,10 @@ a {
 
 .header-menu-div-flex{
     display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;    
 }
 
-.menu {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.burger-icon {
-    color: white;
-}
-
-#burger-checkbox {
-    display: none;
-    
-}
-
-.menu {
-    display: none;
-}
-
-input:checked ~ .menu  {
-    display: block;
-}
 
 .menu a {
     display: block;
@@ -109,6 +96,83 @@ input:checked ~ .menu  {
     border-right: 2px solid white;
     padding-right: 5px;
 }
+
+.menu_icon {
+    display: block;
+    z-index: 5;
+    position: relative;
+    cursor: pointer;
+    width: 30px;
+    height: 18px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.menu_icon._active span {
+    transform: scale(0) translate(0px, -50%);
+}
+
+.menu_icon._active::before {
+    top: 50%;
+    transform: rotate(-45deg) translate(0px, -50%);
+}
+
+.menu_icon._active::after {
+    bottom: 50%;
+    transform: rotate(45deg) translate(0px, 50%);
+}
+
+
+.menu_icon span,
+.menu_icon::before,
+.menu_icon::after{
+    left: 0;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    transition: all 0.3s ease 0s;
+    background-color: #fff;
+}
+
+.menu_icon::before,
+.menu_icon::after{
+    content: "";
+}
+.menu_icon::before{
+    top: 0;
+}
+
+.menu_icon::after{
+    bottom: 0;
+}
+
+.menu_icon span {
+    top: 50%;
+    transform: scale(1) translate(0px, -50%);
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-for-menu-burger);
+    text-align: center;
+    padding: 70px 0px 30px 0px;
+    transition: left 0.3s ease 0s;
+    overflow: auto;
+}
+
+.menu._active {
+    left: 0;
+}
+
+.menu a {
+    margin-top: 30px;
+    font-size: 24px;
+}
+
 
 @media(min-width:760px) {
     .logo {
