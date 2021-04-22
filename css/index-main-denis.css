@@ -187,61 +187,30 @@
     line-height: 41px;
 }
 
-.price-list-for-mobile ul {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 15px;
+.mobile-price-list-text {
+    display: flex;
+}
+
+.paragraph-for-price-list-text-heading{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-paragraphs);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+.paragraph-for-price-list-text-small{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-paragraphs);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 29px;
 }
 
 .price-list-for-mobile ul li {
     list-style-type: none;
-    margin-top: 80px;
-    margin-bottom: 70px;
 }
 
-.mobile-price-list-text {
-    display: flex;
-    border-bottom: 1px solid rgba(244, 244, 244, 0.2);
-}
-
-.paragraph-for-price-list-text-heading {
-    font-family: 'Montserrat', sans-serif;
-    color: var(--color-font-for-paragraphs);
-    font-size: 22px;
-    font-weight: 600;
-    line-height: 29px;
-    padding-left: 40px;
-    padding-right: 25px;
-    padding-top: 45px;
-    padding-bottom: 15px;
-}
-
-.paragraph-for-price-list-text-small {
-    font-family: 'Montserrat', sans-serif;
-    color: var(--color-font-for-paragraphs);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 29px;
-    padding-left: 55px;
-    padding-right: 25px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.paragraph-for-price-list-text-heading-second {
-    margin-left: 190px;
-}
-
-.second {
-    font-size: 19px;
-    font-weight: 500;
-    margin-left: 230px;
-    align-items: center;
-}
-
-.price-list-for-more-sizes {
-    display: none;
-}
 /* STYLES FINISH FOR CONTAINER-PRICE-LIST-FOR-MOBILE-LIST
 -------------------------------------------------------*/
 /* STYLES START FOR CONTAINER-WHY-CHOOSE-US*/
