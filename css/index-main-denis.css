@@ -189,6 +189,9 @@
 
 .mobile-price-list-text {
     display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(52, 52, 52);
+   
 }
 
 .paragraph-for-price-list-text-heading{
@@ -197,6 +200,8 @@
     font-size: 24px;
     font-weight: 600;
     line-height: 29px;
+    margin-top: 25px;
+    padding: 15px 0px 15px 0px;
 }
 
 .paragraph-for-price-list-text-small{
@@ -205,10 +210,21 @@
     font-size: 19px;
     font-weight: 400;
     line-height: 29px;
+    
+}
+
+.paragraph-for-price-list-text{
+    padding: 15px 0px 15px 0px;
 }
 
 .price-list-for-mobile ul li {
     list-style-type: none;
+    pad: 0px 15px 0px 15px;
+    margin: 30px 0px 45px 0px;
+}
+
+.price-list-for-mobile ul {
+    margin-top: 75px;
 }
 
 /* STYLES FINISH FOR CONTAINER-PRICE-LIST-FOR-MOBILE-LIST

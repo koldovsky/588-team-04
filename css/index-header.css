@@ -196,6 +196,7 @@ a {
     .big-text-under-logo p {
         margin-top: -35px;
     }
+    
 }
 
 @media(min-width:990px) {
@@ -221,25 +222,24 @@ a {
         margin-top: -35px;
     }
 
-    .burger-icon {
+    .menu_icon {
         display: none;
-    }
-
-    .header-menu-div-flex {
-        justify-content: space-between;
-    }
-
-    #home .menu {
-        display: flex;
-        width: 558px;
-        height: 50px;
-        margin-top: 30px;
         
     }
 
-    #home .menu a{
-        font-size: 14px;
+    .menu {
+        position:relative;
+        display: flex;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0);
+        margin-top: -30px;
+    }
+    
+    .menu a {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
         font-weight: 600;
+        line-height: 19px;
         margin: 15px 20px 15px 20px;
     }
 }
