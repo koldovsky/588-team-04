@@ -99,7 +99,7 @@ a {
 
 .social-networks-fa-burger {
     display: flex;
-    padding-left: 44%;
+    justify-content: center;
 }
 
 .phonecell {
@@ -218,6 +218,10 @@ a {
 
 @media(min-width:990px) {
     .social-networks-fa-burger {
+        display: none;
+    }
+
+    .phone-number {
         display: none;
     }
 
