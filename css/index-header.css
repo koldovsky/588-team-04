@@ -97,6 +97,23 @@ a {
     padding-right: 5px;
 }
 
+.social-networks-fa-burger {
+    display: flex;
+    padding-left: 44%;
+}
+
+.phonecell {
+    color: var(--color-font-for-headings);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 29px;
+    padding-top: 20px;
+}
+
+.social-networks-fa-burger a {
+    padding: 0px 10px 0px 10px;
+}
+
 .menu_icon {
     display: block;
     z-index: 5;
@@ -200,6 +217,10 @@ a {
 }
 
 @media(min-width:990px) {
+    .social-networks-fa-burger {
+        display: none;
+    }
+
     .logo {
         font-size: 32px;
         font-weight: 900;

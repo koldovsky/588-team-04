@@ -86,6 +86,11 @@
 .last-button {
     padding-bottom: 100px;
 }
+
+.most-popular-bikes-separate-blocks button a {
+    color: var(--color-font-for-headings);
+}
+
 /*STYLES FINISH FOR CONTAINER-FOR-MOST-POPULAR-BIKES
 ----------------------------------------------------*/
 /*STYLES FINISH FOR CONTAINER-FOR-REPAIRS*/
