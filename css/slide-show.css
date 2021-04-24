@@ -1,0 +1,58 @@
+:root {
+    --color-font-for-headings: rgb(244, 244, 244);
+    --color-font-for-paragraphs: rgb(231, 221, 221);
+    --color-red: #E03033;
+    --color-darak-gray: rgb(181, 181, 181);
+    --background-dark: rgb(25, 25, 25);
+    --more-dark: rgb(16, 16, 16);
+    --color-for-form: rgb(31, 31, 31);
+    --color-for-form-input: rgb(34, 34, 34);
+    --color-for-form-input-text: rgb(181, 181, 181);
+    --color-for-menu-burger : rgba(0, 0, 0, 0.9);
+    scroll-behavior: smooth;
+}
+
+.container-bikes-products {
+    background-color: var(--color-for-form-input);
+}    
+
+.slideshow-container{
+    max-width: 1150px;
+    margin: auto;
+    padding: 40px 24px 40px 24px;
+}
+
+.header-urban-bicycles {
+    font-family: 'Playfair Display', serif;
+    color: var(--color-font-for-headings);
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 41px;
+    text-align: center;
+    max-width: 1150px;
+    margin: auto;
+    padding: 20px 24px 20px 24px;
+}
+
+.my-slides {
+    text-align: center;
+}
+
+.my-slides h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-headings);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.my-slides p {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-paragraphs);
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.my-slides img{
+    max-width: 100%;
+    height: auto;
+}
