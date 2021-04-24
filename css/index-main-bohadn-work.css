@@ -97,6 +97,11 @@ color: var(--text-color);
 margin-top: 20px;
 padding-left: 15px;
 padding-right: 15px;
+transition: 0.3s;
+}
+
+.four-bicycles p:hover {
+    color: var(--color-red);
 }
 
 .four-bicycles img {
