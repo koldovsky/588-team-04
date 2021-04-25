@@ -19,19 +19,19 @@
 .slideshow-container{
     max-width: 1150px;
     margin: auto;
-    padding: 40px 24px 40px 24px;
+    padding: 0px 100px 0px 100px;
 }
 
-.header-urban-bicycles {
+.header-products-bicycles {
     font-family: 'Playfair Display', serif;
     color: var(--color-font-for-headings);
-    font-size: 18px;
-    font-weight: 900;
-    line-height: 41px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
     text-align: center;
     max-width: 1150px;
     margin: auto;
-    padding: 20px 24px 20px 24px;
+    padding: 20px 24px 0px 24px;
 }
 
 .my-slides {
@@ -41,18 +41,154 @@
 .my-slides h2 {
     font-family: 'Montserrat', sans-serif;
     color: var(--color-font-for-headings);
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 500;
+}
+
+.my-slides span {
+    color: var(--color-red);
 }
 
 .my-slides p {
     font-family: 'Montserrat', sans-serif;
     color: var(--color-font-for-paragraphs);
-    font-size: 14px;
+    font-size: 12px;
     padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .my-slides img{
     max-width: 100%;
     height: auto;
+}
+
+.buttons-prev-next{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-prev-next {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.prev, .next {
+    display: inline-block;
+    padding: 6px 14px 6px 14px;
+    margin-top: 30px;
+    font-size: 10px;
+    font-weight: bold;
+    color: var(--color-font-for-headings);
+    transition: 0.5s;
+}
+
+.prev:hover, .next:hover {
+    background-color: var(--more-dark);
+    color: var(--color-font-for-headings);
+}
+
+.button-contact-under-slider {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-paragraphs);
+    text-align: center;
+    padding: 20px 10px 40px 10px;
+    margin-top: 20px;
+}
+
+.button-contact-under-slider a {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-headings);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    border: 2px solid var(--color-red);
+    padding: 5px 15px 5px 15px;
+    transition: 0.5s;
+}
+
+.button-contact-under-slider a:hover {
+    color: var(--color-red);
+    border: 2px solid var(--color-font-for-headings);
+}
+
+
+@media(min-width:550px) {
+    .header-products-bicycles {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 19px;
+    }
+
+    .my-slides h2 {
+        font-size: 16px;
+    }
+    
+    .my-slides p {
+        font-size: 14px;
+    }
+
+    .button-contact-under-slider a {
+        font-size: 16px;
+    }
+
+}
+
+@media(min-width:760px) {
+    .header-products-bicycles {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 19px;
+    }
+
+    .my-slides h2 {
+        font-size: 18px;
+    }
+    
+    .my-slides p {
+        font-size: 16px;
+    }
+
+    .prev, .next {
+        display: inline-block;
+        padding: 8px 16px 8px 16px;
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .button-contact-under-slider a {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 21px;
+    }
+}
+
+@media(min-width:990px) {
+    .header-products-bicycles {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 40px;
+    }
+
+    .my-slides h2 {
+        font-size: 20px;
+    }
+    
+    .my-slides p {
+        font-size: 18px;
+    }
+
+    .prev, .next {
+        display: inline-block;
+        padding: 10px 18px 10px 18px;
+        margin-top: 30px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .button-contact-under-slider a {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 21px;
+    }
 }
