@@ -9,6 +9,8 @@
    --color-for-p-in-form: rgb(229,221,221);
    --back-for-form-color: rgb(34,34,34);
    --back-for-input-in-form: rgb(84,84,84);
+   --back-for-courusiel: rgb(26,26,26);
+   --p-for-courusiel:rgb(162,162,162);
    
 }
 /* Bike rentals blocks* start*/
@@ -470,6 +472,271 @@ color: var(--text-color);
 
 
 }
+
+
+/* group tours start css*/
+
+#group {
+    max-width: 1150px;
+    margin: auto;
+}
+
+.counteiner-of-group-tours {
+    background-color: var(--color-for-form);
+    padding: 85px 24px 80px 24px;
+}
+
+.group-tours h2 {
+    color: var(--color-font-for-headings);
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 41px;
+    text-align: center;
+}
+
+.group-for-four-tours img {
+    width: 70px;
+    height: 70px;
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.img-of-group-tours {
+    display: flex;
+    justify-content: center;
+}
+
+.group-for-four-tours h4 {
+    color: var(--color-font-for-headings);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.group-for-four-tours p {
+    color: var(--color-font-for-paragraphs);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media(min-width:761px) {
+
+    .counteiner-of-group-tours {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .group-tours h2 {
+        font-size: 39px;
+        line-height: 47px;
+    }
+
+    .four-group {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    .group-for-four-tours img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media(min-width:991px) {
+
+       .four-group {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .group-tours h2 {
+        font-size: 45px;
+        line-height: 54px;
+    }    
+
+    .group-for-four-tours h4 {
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .group-for-four-tours {
+        margin-top: 30px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+/* group tours start css fineshed*/
+
+/* courusiel start css*/
+
+#testimonials-of-courusiel {
+    max-width: 1150px;
+    margin: auto;
+}
+
+.counteiner-of-courusiel {
+    background-color: var(--back-for-courusiel);
+    padding: 85px 24px 90px 24px;
+}
+
+.testimonials h2 {
+    color: var(--color-font-for-headings);
+    font-family:'Playfair Display', serif;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 41px;
+    text-align: center;
+}
+
+.img-of-courusiel {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 45px;
+}
+
+.amanda-patric p {
+    color: var( --color-font-for-headings);
+    font-family:'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.red-director p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color:#E03033;
+    margin-top: 20px;
+}
+
+.description-of-courusiel p {
+    color: var(--p-for-courusiel);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.date-of-courusiel p {
+    color: var(--color-font-for-headings);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media(min-width:761px) {
+    .testimonials h2 {
+    font-size: 39px;
+    line-height: 47px;
+    }
+
+    .red-director p {
+        font-weight: 700;
+    }
+}
+
+@media(min-width:991px) {
+    .testimonials h2 {
+        font-size: 45px;
+        line-height: 54px;
+    }
+
+    .amanda-patric p {
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .red-director p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .date-of-courusiel p {
+        font-size: 13px;
+        line-height: 21;
+    }    
+}
+/* finished of courusiel*/
+
+/* inframe start*/
+
+#location {
+    max-width: 1150px;
+    margin: auto;
+}
+
+.iframe-of-bike iframe {
+    width: 100%;
+    height: 100%;
+}
+.counteiner-of-inframe {
+    background-color: var(--back-for-form-color);
+}
+
+/*finished 0f inframe*/
+
+/* start with red block*/
+
+#red-tours {
+    max-width: 1150px;
+    margin: auto;
+}
+
+.counteiner-of-about-tours {
+    background-color: #E03033;
+}
+
+.about-tours p {
+color: var(--color-font-for-headings);
+font-family: 'Playfair Display', serif;
+font-size: 40px;
+font-weight: 900;
+line-height: 48px;
+
+}
+
+.a-for-tours a {
+    width: 130px;
+    height: 42px;
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
