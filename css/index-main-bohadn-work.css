@@ -11,6 +11,7 @@
    --back-for-input-in-form: rgb(84,84,84);
    --back-for-courusiel: rgb(26,26,26);
    --p-for-courusiel:rgb(162,162,162);
+   --back-for-funny:rgb(25,25,25);
    
 }
 /* Bike rentals blocks* start*/
@@ -602,7 +603,7 @@ color: var(--text-color);
     justify-content: center;
 }
 
-.carousel img {
+.slideshow-containerr img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -649,6 +650,94 @@ color: var(--text-color);
     margin-top: 20px;
 }
 
+/* styles for carusel start !!!!!!!!!!!!!!!!!!!!!!! */
+
+.slideshow-containerr {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* styles for carusel finished */
+
 @media(min-width:761px) {
     .testimonials h2 {
     font-size: 39px;
@@ -681,6 +770,7 @@ color: var(--text-color);
         line-height: 21;
     }    
 }
+
 /* finished of courusiel*/
 
 /* inframe start*/
@@ -709,6 +799,7 @@ color: var(--text-color);
 
 .counteiner-of-about-tours {
     background-color: #E03033;
+    padding: 50px 24px 55px 24px;
 }
 
 .about-tours p {
@@ -717,43 +808,211 @@ font-family: 'Playfair Display', serif;
 font-size: 40px;
 font-weight: 900;
 line-height: 48px;
-
 }
 
 .a-for-tours a {
-    width: 130px;
-    height: 42px;
-    display: flex;
-    justify-content: flex-end;
-    
-
+    background-color:var(--text-color);
+    border: none;
+    color: #E03033;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
+.a-for-tours {
+    display: flex;
+    justify-content: flex-end;
+}
 
+@media(min-width:761px) {
+    .counteiner-of-about-tours {
+    display: grid;
+    grid-template-columns: 1fr ;
+    }
+}
+/*          About Funny Bikes  start          */
 
+.counteiner-for-funny-bikes {
+    background-color: var(--back-for-funny);
+    padding:90px 24px 90px 24px;
+}
 
-
-
-
-
-
-
-
-
-
-/* ZMENSHUV TOBI KARTINKY V ROZDILI ABOUT FUNNI BIKES
-POTOM UDALUSH CSS I ZROBYSH ZANOVO TAK YAK TOBI TREBA)))*/
+#about-funny-bikees {
+    max-width: 1150px;
+    margin: auto;
+}
   
 .img-for-funny-bikes {
-    padding: 0px 24px 0px 24px;
+    padding: 15px 24px 15px 24px;
 }
 
 .img-for-funny-bikes img {
     width: 100%;
     height: auto;
+    
 }
 
-/* ZMENSHUV TOBI KARTINKY V ROZDILI ABOUT FUNNI BIKES*/
+.about-funny-bike h2 {
+    color: var(--color-font-for-headings);
+    font-family:'Playfair Display', serif;;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 41px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.where-founded p {
+    color: var(--color-font-for-paragraphs);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-top: 25px;
+}
+
+@media(min-width:761px) {
+    #about-funny-bikees {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about-funny-bike h2 {
+        font-size: 39px;
+        line-height: 47px;
+    }
+    
+    .counteiner-for-funny-bikes {
+        padding: 80px 32px 80px 32px;
+    }
+}  
+
+@media(min-width:991px) {
+    .about-funny-bike h2 {
+        font-size: 45px;
+        line-height: 54px;
+    }
+}
+/* About Funny Bikes  finished         */
+
+
+
+
+
+/* Our Team       */
+
+#ours-teams {
+    max-width: 1150px;
+    margin: auto;
+}
+
+.counteiner-of-our-team {
+    background-color: var(--color-for-form);
+    padding: 85px 24px 90px 24px;
+}
+
+.ourteam h2 {
+    color: var(--color-font-for-headings);
+    font-family:'Playfair Display', serif;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 41px;
+    text-align: center;
+}
+
+.our-team-block {
+    padding: 35px 15px 35px 15px;
+    border: solid 1px white;
+    margin-top: 30px;
+    background-color: var(--back-to-media);
+}
+
+.img-for-those-people img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.img-for-those-people {
+    display: flex;
+    justify-content: center;
+}
+
+ .those-people h3  {
+    color: var(--color-font-for-headings);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.repairs-magician p {
+    color: #E03033;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bicycle-mechanics p {
+    color: var(--color-font-for-headings);
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media(min-width:761px) {
+    .ourteam h2 {
+        font-size: 39px;
+        line-height: 47px;
+    }
+    .counteiner-of-pepole-blocks {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .our-team-block {
+        padding-left: 20px;
+        padding-right: 20px;
+       margin-left: 20px;
+    }
+}
+
+@media(min-width:991px) {
+    .counteiner-of-pepole-blocks {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+     .ourteam h2 {
+        font-size: 45px;
+        line-height: 54px;
+    }
+
+    .those-people h3 {
+        line-height: 30px;
+    }
+
+    .repairs-magician p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+    
+    .our-team-block {
+        margin-left: 50px;
+    }
+}
+/* Our Team  fineshed!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!     */
 
 
 
