@@ -1,0 +1,1717 @@
+/*STYLES START FOR CONTAINER-FOR-MOST-POPULAR-BIKES*/
+.container-for-most-popular-bikes {
+    background-color: var(--background-dark);
+}
+
+#mostpopularbikes {
+    max-width: 1150px;
+    margin: auto;
+}
+
+.most-popular-bike-heading {
+    height: 40px;
+    padding-top: 90px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.most-popular-bike-heading h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--color-font-for-headings);
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 41px;
+}
+
+.most-popular-bikes-blocks img {
+    display: block;
+    width: 100%;
+}
+
+.most-popular-bikes-separate-blocks{
+    margin-top: 50px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.most-popular-bikes-separate-blocks h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-headings);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 29px;
+    margin-top: 20px;
+}
+
+.most-popular-bikes-separate-blocks p {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-paragraphs);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.most-popular-bikes-separate-blocks ul {
+    margin-top: 20px;
+}
+
+.most-popular-bikes-separate-blocks ul li {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-paragraphs);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    list-style-type: none;
+}
+
+.most-popular-bikes-separate-blocks ul li span {
+    font-weight: 700;
+    color: var(--color-red);
+}
+
+.most-popular-bikes-separate-blocks button {
+    width: 130px;
+    height: 46px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-headings);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    border: 2px solid var(--color-font-for-paragraphs);
+    background-color: var(--background-dark);
+    margin-top: 35px;
+}
+.last-button {
+    padding-bottom: 100px;
+}
+
+.most-popular-bikes-separate-blocks button a {
+    color: var(--color-font-for-headings);
+}
+
+/*STYLES FINISH FOR CONTAINER-FOR-MOST-POPULAR-BIKES
+----------------------------------------------------*/
+/*STYLES FINISH FOR CONTAINER-FOR-REPAIRS*/
+.container-for-repairs {
+    background-color: var(--more-dark);
+}
+
+#repairs {
+    max-width: 1150px;
+    margin: auto;
+    padding: 85px 24px 90px 24px;
+}
+
+.repairs {
+    text-align: center;
+}
+
+.repairs h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--color-font-for-headings);
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 41px;
+}
+
+.info-block-after-headind {
+    margin-top: 50px;
+}
+.info-block-after-headind img {
+    display: block;
+    width: 100%;
+}
+
+.paragraph-text {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-paragraphs);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 50px;
+}
+
+.small-photo {
+    width: 70px;
+    height: 70px;
+    padding-right: 15px;
+}
+
+.small-photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.image-and-photo {
+    display: flex;
+    flex: 2;
+    margin-top: 20px;
+}
+
+.text-with-small-photo {
+    flex: 1;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-paragraphs);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 15px;
+}
+
+.mike {
+    margin-top: 20px;
+}
+
+/*STYLES FINISH FOR CONTAINER-FOR-REPAIRS
+----------------------------------------*/
+/* STYLES START FOR CONTAINER-PRICE-LIST-FOR-MOBILE-LIST*/
+.container-price-list-for-mobile {
+    background-color: var(--background-dark);
+}
+
+.price-list-for-mobile {
+    max-width: 1150px;
+    margin: auto;
+    padding: 85px 24px 85px 24px;
+}
+
+#price {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+#price h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--color-font-for-headings);
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 41px;
+}
+
+.mobile-price-list-text {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(52, 52, 52);
+   
+}
+
+.paragraph-for-price-list-text-heading{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-paragraphs);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    margin-top: 25px;
+    padding: 15px 0px 15px 0px;
+}
+
+.paragraph-for-price-list-text-small{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-paragraphs);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 29px;
+    
+}
+
+.paragraph-for-price-list-text{
+    padding: 15px 0px 15px 0px;
+}
+
+.price-list-for-mobile ul li {
+    list-style-type: none;
+    pad: 0px 15px 0px 15px;
+    margin: 30px 0px 45px 0px;
+}
+
+.price-list-for-mobile ul {
+    margin-top: 75px;
+}
+
+/* STYLES FINISH FOR CONTAINER-PRICE-LIST-FOR-MOBILE-LIST
+-------------------------------------------------------*/
+/* STYLES START FOR CONTAINER-WHY-CHOOSE-US*/
+.container-for-why-choose-us {
+    background-color: var(--background-dark);
+}
+
+.why-choose-us {
+    max-width: 1150px;
+    margin: auto;
+    padding: 85px 24px 90px 24px;
+}
+
+.why-choose-us-heading {
+    text-align: center;
+}
+
+.why-choose-us-heading h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--color-font-for-headings);
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 41px;
+}
+
+.icon-for-icons-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icon-for-icons-text img {
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+
+.icons-text {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.text-after-icons h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-headings);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 29px;
+    margin-top: 20px;
+}
+
+.text-after-icons p {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-paragraphs);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+}
+/* STYLES FINISH FOR CONTAINER-WHY-CHOOSE-US
+-------------------------------------------*/
+/* STYLES START FOR CONTAINER-NEWS*/
+.container-news {
+    background-image: url(../img/background-for-news.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.news {
+    max-width: 1150px;
+    margin: auto;
+    padding: 85px 24px 80px 24px;
+}
+
+.news-heading {
+    text-align: center;
+
+}
+
+.news-heading h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--color-font-for-headings);
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 41px;
+}
+
+.blocks-under-heading {
+    padding: 15px 15px 15px 15px;
+    background-color: rgba(25, 25, 25, 0.7);
+    margin-top: 30px;
+}
+
+.blocks-under-heading h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-paragraphs);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+.blocks-under-heading span {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-red);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.blocks-under-heading p {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-paragraphs);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+}
+/* STYLES FINISH FOR CONTAINER-NEWS
+----------------------------------*/
+/*STYLES START FOR CONTAINER-RENTAL-TERMS*/
+.container-for-rental-terms {
+    background-color: var(--background-dark);
+}
+
+.rental-terms {
+    max-width: 1150px;
+    margin: auto;
+    padding: 85px 24px 80px 24px;
+}
+
+.rental-terms-heading {
+    text-align: center;
+}
+
+.rental-terms-heading h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--color-font-for-headings);
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 41px;
+}
+
+.rental-blocks h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-paragraphs);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 29px;
+    margin-top: 50px;
+}
+
+.rental-blocks p {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-paragraphs);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+}
+/*STYLES FINISH FOR CONTAINER-RENTAL-TERMS
+----------------------------------------*/
+/*STYLES START FOR CONTAINER-CONTACTS*/
+.container-contacts {
+    background-image: url(../img/background-for-contacts.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contacts {
+    max-width: 1150px;
+    margin: auto;
+    padding: 90px 24px 90px 24px;
+}
+
+.contacts-text-heading h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--color-font-for-headings);
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 41px;
+}
+
+.contacts-paragraphs p {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-paragraphs);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 25px;
+}
+
+.address-contacts {
+    margin-top: 25px;
+}
+
+.address-contacts-blocks {
+    margin-bottom: 16px;
+}
+
+.address-contacts-blocks-heading {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-red);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 29px;
+    margin-bottom: 5px;
+}
+
+.address-contacts-blocks-paragraphs {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-paragraphs);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.address-contacts-blocks-paragraphs a {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-paragraphs);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.form-down {
+    background-color: var(--color-for-form);
+    margin-top: 50px;
+    text-align: center;
+    padding: 39px 43px 39px 43px;
+}
+
+.form-down-label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    
+}
+
+.form-down-label input {
+    background-color: var(--color-for-form-input);
+    margin-top: 12px;
+    padding: 14px 30px 14px 30px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-for-form-input-text);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+}
+.type-message input {
+    height: 150px;
+}
+
+.form-down-label-button {
+    margin-top: 12px;
+    padding: 14px 30px 14px 30px;
+    outline: none;
+    border: none;
+    border: 2px solid var(--color-red);
+}
+
+.form-down-label-button button {
+    outline: none;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-font-for-headings);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    background-color: var(--color-for-form-input);
+}
+/*STYLES START FOR CONTAINER-CONTACTS*/
+
+
+
+
+@media(min-width:761px) {
+    /*MEDIA START FOR CONTAINER-FOR-MOST-POPULAR-BIKES*/
+    .most-popular-bike-heading h2 {
+        font-size: 39px;
+        line-height: 47px;
+    }
+
+    .most-popular-bikes-blocks {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    /*MEDIA FINISH FOR CONTAINER-FOR-MOST-POPULAR-BIKES
+    --------------------------------------------------*/
+    /*MEDIA START FOR CONTAINER-FOR-REPAIRS*/
+    .repairs h2 {
+        font-size: 39px;
+        line-height: 47px;
+    }
+
+    .info-block-after-headind {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+    }
+
+    .all-text-under-heading {
+        margin-top: -50px;
+    }
+    /*MEDIA FINISH FOR CONTAINER-FOR-REPAIRS
+    ------------------------------------------------------*/
+    /*MEDIA START FOR CONTAINER-PRICE-LIST-FOR-LIST*/
+    
+    /*MEDIA FINISH FOR CONTAINER-PRICE-LIST-FOR--LIST
+    -----------------------------------------------------*/
+    /*MEDIA START FOR CONTAINER-WHY-CHOOSE-US*/
+    .why-choose-us-heading h2 {
+        font-size: 39px;
+        line-height: 47px;
+    }
+    
+    .icon-text-flex-for-tablet {
+        display: flex;
+    }
+
+    .icon-for-icons-text img {
+        display: block;
+        width: 100px;
+        height: 100px;
+    }
+
+    .icons-text {
+        text-align: start;
+    }
+    /*MEDIA FINISH FOR CONTAINER-WHY-CHOOSE-US
+    ----------------------------------------*/
+    /*MEDIA START FOR CONTAINER-NEWS*/
+    .news-heading h2 {
+    font-size: 39px;
+    line-height: 47px;
+    }
+    /*MEDIA START FOR CONTAINER-NEWS
+    -------------------------------*/
+    /*MEDIA START FOR CONTAINER-RENTAL-TERMS*/
+    .rental-blocks-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+    }
+    
+    .rental-terms-heading h2 {
+        font-size: 39px;
+        line-height: 47px;
+    }
+    /*MEDIA FINISH FOR CONTAINER-RENTAL-TERMS
+    ---------------------------------------*/
+    /*MEDIA START FOR CONTAINER-CONTACTS*/
+    .contacts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+    }
+
+    .contacts-text {
+        margin-top: 100px;
+    }
+
+    .contacts-text-heading h2 {
+        font-size: 39px;
+        line-height: 47px;
+    }
+    
+    .address-contacts-blocks {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .address-contacts-blocks-heading h3 {
+        font-size: 22px;
+    }
+
+    
+
+    /*MEDIA START FOR CONTAINER-CONTACTS*/
+}
+
+@media(min-width:991px) {
+    /*MEDIA START FOR CONTAINER-FOR-MOST-POPULAR-BIKES*/
+    .most-popular-bike-heading h2 {
+        font-size: 45px;
+        line-height: 54px;
+    }
+
+    .most-popular-bikes-blocks {
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+    /* MEDIA FINISH FOR CONTAINER-FOR-MOST-POPULAR-BIKES
+    ---------------------------------------------------*/
+    /*MEDIA START FOR CONTAINER-FOR-REPAIRS*/
+    .repairs h2 {
+        font-size: 45px;
+        line-height: 54px;
+    }
+    /*MEDIA FINISH FOR CONTAINER-FOR-REPAIRS
+    ------------------------------------------------------*/
+    /*MEDIA START FOR CONTAINER-PRICE-LIST-FOR-MOBILE-LIST*/
+    
+    /*MEDIA FINISH FOR CONTAINER-PRICE-LIST-FOR-MOBILE-LIST
+    -----------------------------------------------------*/
+    /*MEDIA START FOR CONTAINER-WHY-CHOOSE-US*/
+    .why-choose-us-heading h2 {
+        font-size: 45px;
+        line-height: 54px;
+    }
+
+    .icons-text {
+        display: flex;
+    }
+
+    .icon-for-icons-text{
+        flex: 1;
+    }
+
+    .text-after-icons {
+        flex: 2;
+    }
+    /*MEDIA FINISH FOR CONTAINER-WHY-CHOOSE-US
+    ----------------------------------------*/
+    /*MEDIA START FOR CONTAINER-NEWS*/
+    .news-heading h2 {
+    font-size: 45px;
+    line-height: 54px;
+    }
+    /*MEDIA START FOR CONTAINER-NEWS
+    ------------------------------*/
+    /*MEDIA START FOR CONTAINER-RENTAL-TERMS*/
+    .rental-blocks-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 30px;
+    }
+    
+    .rental-terms-heading h2 {
+        font-size: 45px;
+        line-height: 54px;
+    }
+
+    .rental-blocks h3 {
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    /*MEDIA FINISH FOR CONTAINER-RENTAL-TERMS
+    ---------------------------------------*/
+    /*MEDIA START FOR CONTAINER-CONTACTS*/
+    .contacts-text-heading h2 {
+        font-size: 45px;
+        line-height: 54px;
+    }
+    /*MEDIA START FOR CONTAINER-CONTACTS*/
+}
+/* BOHDAN CODING START */
+
+:root {
+    --dark: rgb(39, 39, 39);
+    --gray-dark: #222222;
+    --text-color: rgb(231, 221, 221);
+    --gray-back-color: rgb(16,16,16);
+    --back-icon-color: rgb(45,45,45);
+    --back-to-media: rgb(24,24,24);
+    --color-for-p-in-form: rgb(229,221,221);
+    --back-for-form-color: rgb(34,34,34);
+    --back-for-input-in-form: rgb(84,84,84);
+    --back-for-courusiel: rgb(26,26,26);
+    --p-for-courusiel:rgb(162,162,162);
+    --back-for-funny:rgb(25,25,25);
+    
+ }
+ /* Bike rentals blocks* start*/
+ .container-for-main-start-three-blocks{
+     background-color: var(--dark);
+ }
+ 
+ .bikess {
+     max-width: 1150px;
+     margin: auto;
+     
+ }
+ .main-start-three-blocks{
+    text-align: center;
+    padding: 60px 35px 60px 35px;
+    
+ }
+ .main-start-three-blocks h3 {
+     color: var(--color-font-for-headings);
+     font-family: 'Montserrat', sans-serif;
+     font-size: 24px;
+     font-weight: 600;
+     line-height: 29px;
+ 
+   
+ }
+ .main-start-three-blocks p {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+     color: var(--text-color);
+     margin-top: 20px;
+ 
+ }
+ .main-start-three-blocks-silver-background{
+     background-color: var(--gray-dark);
+ }
+ 
+ @media(min-width:761px) {
+     .bikess{
+         display: flex;
+       
+     }
+     .main-start-three-blocks {
+         padding: 80px 40px 80px 40px;
+         font-size: 22px;
+     }
+ 
+ }
+ 
+ @media(min-width:991px) {
+     .bikess {
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+     }
+     .main-start-three-blocks {
+         padding: 120px 50px 120px 50px;
+     }
+ }
+ /* Bike rentals blocks* finished*/
+ 
+ /*Bicycle Types blocks* start*/
+  
+ #bikes {
+     background-color: var(--gray-back-color);
+     padding: 85px 24px 80px 24px;
+ }
+ 
+ .bicycle-types h2 {
+ text-align: center;
+ font-family: 'Playfair Display', serif;
+ font-size: 34px;
+ font-weight: 900;
+ line-height: 41px;
+ color: var(--color-font-for-headings);
+ }
+ 
+ .four-bicycles p {
+ font-family: 'Montserrat', sans-serif;
+ text-align: center;
+ font-size: 22px;
+ font-weight: 600;
+ line-height: 29px;
+ color: var(--text-color);
+ margin-top: 20px;
+ padding-left: 15px;
+ padding-right: 15px;
+ transition: 0.3s;
+ }
+ 
+ .four-bicycles p:hover {
+     color: var(--color-red);
+ }
+ 
+ .four-bicycles img {
+     height: 70px;
+     width: 70px;
+     margin-top: 50px;
+ }
+ .foto-of-bicycles {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ @media(min-width:761px) {
+     .four-kind-of-bikes {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         margin-top: 45px;
+     }
+     .bicycle-types h2 {
+         font-size: 39px;
+         font-weight: 900;
+         line-height: 47px;
+     }
+     .four-bicycles img  {
+         height: 100px;
+         width: 100px;
+         margin-top: 30px;
+         padding-left: 15px;
+         padding-right: 15px;
+     }
+     #bikes {
+         padding: 85px 32px 80px 32px;
+     }
+     .bicycle-types {
+         padding-right: 15px;
+         padding-left: 15px;
+     }
+     .four-bicycles p {
+         margin-top: 20px;
+     }
+ }
+ 
+ @media(min-width:991px) {
+     .four-kind-of-bikes {
+         grid-template-columns: 1fr 1fr 1fr 1fr;
+     }
+     .bicycle-types h2 {
+         font-size: 45px;
+         font-weight: 900;
+         line-height: 54px;
+     }
+     .four-bicycles img {
+         height: 100px;
+         width: 100px;
+     }
+     .four-bicycles p {
+         font-size: 23px;
+         font-weight: 600;
+         line-height: 30px;
+ 
+     }
+ }
+ 
+ /*Bicycle Types blocks* finished*/
+ 
+ /*  Tag-along blocks* start*/
+ 
+ .tag-along-of-bikes {
+     background-image: url(../img/bike-tag-along.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     padding: 60px 35px 60px 35px;
+ }
+ 
+ .bicycle-trailer-of-bikes {
+     background-image: url(../img/bicycle-trailer.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     padding: 60px 35px 60px 35px;
+ }
+ 
+ .baby-seat-of-bikes {
+     background-image: url(../img/baby-seat.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     padding: 60px 35px 60px 35px;
+ }
+ 
+ .tag-along-of-bikes p {
+ font-family: 'Montserrat', sans-serif;
+ font-size: 28px;
+ font-weight: 400;
+ line-height: 33px;
+ text-align: center;
+ color: var(--text-color);
+ }
+ 
+ .bicycle-trailer-of-bikes p {
+ font-family: 'Montserrat', sans-serif;
+ font-size: 28px;
+ font-weight: 400;
+ line-height: 33px;
+ text-align: center;
+ color: var(--text-color);
+ }
+ 
+ .baby-seat-of-bikes p {
+ font-family: 'Montserrat', sans-serif;
+ font-size: 28px;
+ font-weight: 400;
+ line-height: 33px;
+ text-align: center;
+ color: var(--text-color);
+ }
+ 
+ @media(min-width:761px) {
+     .tag-along-of-bikes {
+         padding: 80px 40px 80px 40px;
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+ 
+     }
+     .bicycle-trailer-of-bikes {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         padding: 80px 40px 80px 40px;
+     }
+     .three-pic{
+          display: grid;
+         grid-template-columns: 1fr 1fr;
+     }
+     .baby-seat-of-bikes {
+         max-width: 100%;
+         padding: 80px 40px 80px 40px;
+     }
+ }
+ 
+ @media(min-width:991px) {
+      .three-pic {
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+ }
+     
+     .tag-along-of-bikes {
+         padding: 120px 50px 120px 50px;
+         font-size: 35px;
+         font-weight: 400;
+         line-height: 42px;
+         text-align: center;
+     }
+ 
+     .bicycle-trailer-of-bikes {
+         padding: 120px 50px 120px 50px;
+         font-size: 35px;
+         font-weight: 400;
+         line-height: 42px;
+         text-align: center;
+     }
+ 
+     .baby-seat-of-bikes {
+         padding: 120px 50px 120px 50px;
+         font-size: 35px;
+         font-weight: 400;
+         line-height: 42px;
+         text-align: center;
+     }
+ }
+ /*  Tag-along blocks* fished*/
+ 
+ 
+ /*  rent-bike blocks* start*/
+ 
+ .conteiner-rent-bike {
+     background-color: var(--back-to-media);
+     padding: 85px 15px 80px 15px;
+ }
+ 
+ .rent-bike {
+     max-width: 1150px;
+     margin: auto;
+ }
+ 
+ .bikes-info-stransform {
+     margin-left: 20px;
+     box-sizing: border-box;
+ }
+ .icons-how-to-rent-a-bike {
+     margin-bottom: 30px;
+     display: grid;
+     grid-template-columns: 1fr 94%;   
+ }
+ 
+ #how-to-rent-a-bike h2 {
+     font-size: 34px;
+     font-family: 'Playfair Display', serif;
+     font-weight: 900;
+     line-height: 41px;
+     text-align: center;
+     color: var(--color-font-for-headings);
+ }
+ 
+ .bikes-info-stransform h4 {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 19px;
+     font-weight: 700;
+     line-height: 29px;
+     color: var(--color-font-for-headings);
+ }
+ 
+ .bikes-info-stransform p {
+     color: var(--text-color);
+     font-family: 'Montserrat', sans-serif;
+     font-size: 19px;
+     font-weight: 400;
+     line-height: 29px;
+ }
+ 
+ .all-bikes-container {
+     margin-top: 50px;
+     padding-left: 15px;
+     padding-right: 15px;
+ }
+ 
+ .bikes-img-strasform img {
+     width: 26px;
+     height: 26px;
+     padding: 12px 12px 12px 12px;
+ }
+ 
+ .bikes-img-strasform  {
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     background-color: var(--back-icon-color);
+ }
+ 
+ .classik-bike img {
+     width: 100%;
+     height: auto;
+ }
+ 
+ 
+ @media(min-width:761px) {
+     .all-bikes-container {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-gap: 30px;
+     }
+ 
+     #how-to-rent-a-bike h2 {
+         font-size: 39px;
+         line-height: 47px;
+     }
+     .bikes-img-strasform img {
+         width: 40px;
+         height: 40px;
+         padding: 15px 15px 15px 15px;
+     }
+ 
+     .bikes-img-strasform {
+         width: 70px;
+         height: 70px;
+     }
+ }
+ 
+ @media(min-width:991px) {
+     #how-to-rent-a-bike h2 {
+         font-size: 45px;
+         line-height: 54px;
+         
+     }
+ }
+ 
+ /*  rent-bike blocks finished */
+ 
+ /*  Form blocks start*/
+ 
+ 
+ .counteiner-of-wanna-bike{
+     background-image: url(../img/back-bike-rent.jpeg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+ 
+ #wanna-bike {
+     max-width: 1150px;
+     margin: auto;
+     padding: 90px 24px 90px 24px;
+ }
+ 
+ .wana-rent-bike h2 {
+     font-family: 'Playfair Display', serif;
+     font-size: 34px;
+     font-weight: 900;
+     line-height: 41px;
+     text-align: center;
+     color: var(--color-font-for-headings);
+ }
+ 
+ .fill-bike p {
+     font-family: Muli, sans-serif;
+     font-size: 19px;
+     font-weight: 400;
+     line-height: 27px;
+     text-align: center;
+     color: var(--color-for-p-in-form);
+     margin-top: 25px;
+ }
+ 
+ .back-for-form-of-bike {
+     background-color: var(--back-for-form-color);
+     padding: 39px 47px 39px 47px;
+     text-align: center;
+ }
+ 
+ .form-of-rent {
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .form-of-rent input {
+     background-color: var(--back-for-input-in-form);
+     padding: 14px 30px 14px 30px;
+     margin-top: 12px;
+     font-family: 'Montserrat', sans-serif;
+     color: var(--color-for-form-input-text);
+     font-size: 15px;
+     font-weight: 400;
+     line-height: 18px;
+ }
+ 
+ .form-of-rent-button {
+     background-color: var(--color-red);
+     margin-top: 12px;
+     padding: 14px 30px 14px 30px;
+     color: var(--color-for-p-in-form);
+ }
+ 
+ @media(min-width:761px) {
+ 
+  .form-of-rent-a-bike {
+      display: grid;
+      grid-template-columns: 1fr;
+  }
+ 
+     .wana-rent-bike h2 {
+         font-size: 39px;
+         line-height: 47px;
+     }
+ 
+     .fill-bike p {
+         line-height: 27px;
+     }
+ #wanna-bike {
+     padding: 80px 32px 80px 32px;
+ }
+ 
+ .back-for-form-of-bike {
+     padding: 46px 58px 46px 58px;
+ }
+ 
+ 
+ }
+ 
+ 
+ /* group tours start css*/
+ 
+ #group {
+     max-width: 1150px;
+     margin: auto;
+ }
+ 
+ .counteiner-of-group-tours {
+     background-color: var(--color-for-form);
+     padding: 85px 24px 80px 24px;
+ }
+ 
+ .group-tours h2 {
+     color: var(--color-font-for-headings);
+     font-family: 'Playfair Display', serif;
+     font-size: 34px;
+     font-weight: 900;
+     line-height: 41px;
+     text-align: center;
+ }
+ 
+ .group-for-four-tours img {
+     width: 70px;
+     height: 70px;
+     margin-top: 50px;
+     padding-left: 15px;
+     padding-right: 15px;
+ }
+ 
+ .img-of-group-tours {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .group-for-four-tours h4 {
+     color: var(--color-font-for-headings);
+     font-family: 'Montserrat', sans-serif;
+     font-size: 22px;
+     font-weight: 600;
+     line-height: 29px;
+     text-align: center;
+     margin-top: 20px;
+ }
+ 
+ .group-for-four-tours p {
+     color: var(--color-font-for-paragraphs);
+     font-family: 'Montserrat', sans-serif;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+     text-align: center;
+     margin-top: 20px;
+ }
+ 
+ @media(min-width:761px) {
+ 
+     .counteiner-of-group-tours {
+         padding-left: 32px;
+         padding-right: 32px;
+     }
+ 
+     .group-tours h2 {
+         font-size: 39px;
+         line-height: 47px;
+     }
+ 
+     .four-group {
+         display: grid;
+         grid-template-columns: 1fr 1fr ;
+     }
+ 
+     .group-for-four-tours img {
+         width: 100px;
+         height: 100px;
+     }
+ }
+ 
+ @media(min-width:991px) {
+ 
+        .four-group {
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr 1fr;
+     }
+ 
+     .group-tours h2 {
+         font-size: 45px;
+         line-height: 54px;
+     }    
+ 
+     .group-for-four-tours h4 {
+         font-size: 23px;
+         line-height: 30px;
+     }
+ 
+     .group-for-four-tours {
+         margin-top: 30px;
+         padding-right: 15px;
+         padding-left: 15px;
+     }
+ }
+ /* group tours start css fineshed*/
+ 
+ /* courusiel start css*/
+ 
+ #testimonials-of-courusiel {
+     max-width: 1150px;
+     margin: auto;
+ }
+ 
+ .counteiner-of-courusiel {
+     background-color: var(--back-for-courusiel);
+     padding: 85px 24px 90px 24px;
+ }
+ 
+ .testimonials h2 {
+     color: var(--color-font-for-headings);
+     font-family:'Playfair Display', serif;
+     font-size: 34px;
+     font-weight: 900;
+     line-height: 41px;
+     text-align: center;
+ }
+ 
+ .img-of-courusiel {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .slideshow-containerr img {
+     width: 120px;
+     height: 120px;
+     border-radius: 50%;
+     margin-top: 45px;
+ }
+ 
+ .amanda-patric p {
+     color: var( --color-font-for-headings);
+     font-family:'Montserrat', sans-serif;
+     font-size: 22px;
+     font-weight: 600;
+     line-height: 29px;
+     text-align: center;
+     margin-top: 20px;
+ }
+ 
+ .red-director p {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 12px;
+     font-weight: 400;
+     line-height: 20px;
+     text-align: center;
+     color:#E03033;
+     margin-top: 20px;
+ }
+ 
+ .description-of-courusiel p {
+     color: var(--p-for-courusiel);
+     font-family: 'Montserrat', sans-serif;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+     text-align: center;
+     margin-top: 20px;
+ }
+ 
+ .date-of-courusiel p {
+     color: var(--color-font-for-headings);
+     font-family: 'Montserrat', sans-serif;
+     font-size: 12px;
+     font-weight: 700;
+     line-height: 20;
+     text-align: center;
+     margin-top: 20px;
+ }
+ 
+ /* styles for carusel start !!!!!!!!!!!!!!!!!!!!!!! */
+ 
+ .slideshow-containerr {
+   max-width: 1000px;
+   position: relative;
+   margin: auto;
+ }
+ 
+ .mySlides {
+   display: none;
+ }
+ 
+ .prev, .next {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   margin-top: -22px;
+   padding: 16px;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+ }
+ 
+ .next {
+   right: 0;
+   border-radius: 3px 0 0 3px;
+ }
+ 
+ .prev:hover, .next:hover {
+   background-color: rgba(0,0,0,0.8);
+ }
+ 
+ .text {
+   color: #f2f2f2;
+   font-size: 15px;
+   padding: 8px 12px;
+   position: absolute;
+   bottom: 8px;
+   width: 100%;
+   text-align: center;
+ }
+ 
+ .numbertext {
+   color: #f2f2f2;
+   font-size: 12px;
+   padding: 8px 12px;
+   position: absolute;
+   top: 0;
+ }
+ 
+ .dot {
+   cursor: pointer;
+   height: 15px;
+   width: 15px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+ }
+ 
+ .active, .dot:hover {
+   background-color: #717171;
+ }
+ 
+ .fade {
+   -webkit-animation-name: fade;
+   -webkit-animation-duration: 1.5s;
+   animation-name: fade;
+   animation-duration: 1.5s;
+ }
+ 
+ @-webkit-keyframes fade {
+   from {opacity: .4} 
+   to {opacity: 1}
+ }
+ 
+ @keyframes fade {
+   from {opacity: .4} 
+   to {opacity: 1}
+ }
+ 
+ /* styles for carusel finished */
+ 
+ @media(min-width:761px) {
+     .testimonials h2 {
+     font-size: 39px;
+     line-height: 47px;
+     }
+ 
+     .red-director p {
+         font-weight: 700;
+     }
+ }
+ 
+ @media(min-width:991px) {
+     .testimonials h2 {
+         font-size: 45px;
+         line-height: 54px;
+     }
+ 
+     .amanda-patric p {
+         font-size: 23px;
+         line-height: 30px;
+     }
+ 
+     .red-director p {
+         font-size: 13px;
+         line-height: 21px;
+     }
+ 
+     .date-of-courusiel p {
+         font-size: 13px;
+         line-height: 21;
+     }    
+ }
+ 
+ /* finished of courusiel*/
+ 
+ /* inframe start*/
+ 
+ #location {
+     max-width: 1150px;
+     margin: auto;
+ }
+ 
+ .iframe-of-bike iframe {
+     width: 100%;
+     height: 100%;
+ }
+ .counteiner-of-inframe {
+     background-color: var(--back-for-form-color);
+ }
+ 
+ /*finished 0f inframe*/
+ 
+ /* start with red block*/
+ 
+ #red-tours {
+     max-width: 1150px;
+     margin: auto;
+ }
+ 
+ .counteiner-of-about-tours {
+     background-color: #E03033;
+     padding: 50px 24px 55px 24px;
+ }
+ 
+ .about-tours p {
+ color: var(--color-font-for-headings);
+ font-family: 'Playfair Display', serif;
+ font-size: 40px;
+ font-weight: 900;
+ line-height: 48px;
+ }
+ 
+ .a-for-tours a {
+     background-color:var(--text-color);
+     border: none;
+     color: #E03033;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+ }
+ 
+ .a-for-tours {
+     display: flex;
+     justify-content: flex-end;
+ }
+ 
+ @media(min-width:761px) {
+     .counteiner-of-about-tours {
+     display: grid;
+     grid-template-columns: 1fr ;
+     }
+ }
+ /*          About Funny Bikes  start          */
+ 
+ .counteiner-for-funny-bikes {
+     background-color: var(--back-for-funny);
+     padding:90px 24px 90px 24px;
+ }
+ 
+ #about-funny-bikees {
+     max-width: 1150px;
+     margin: auto;
+ }
+   
+ .img-for-funny-bikes {
+     padding: 15px 24px 15px 24px;
+ }
+ 
+ .img-for-funny-bikes img {
+     width: 100%;
+     height: auto;
+     
+ }
+ 
+ .about-funny-bike h2 {
+     color: var(--color-font-for-headings);
+     font-family:'Playfair Display', serif;;
+     font-size: 34px;
+     font-weight: 900;
+     line-height: 41px;
+     text-align: left;
+     margin-top: 50px;
+ }
+ 
+ .where-founded p {
+     color: var(--color-font-for-paragraphs);
+     font-family: 'Montserrat', sans-serif;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+     text-align: left;
+     margin-top: 25px;
+ }
+ 
+ @media(min-width:761px) {
+     #about-funny-bikees {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+     }
+ 
+     .about-funny-bike h2 {
+         font-size: 39px;
+         line-height: 47px;
+     }
+     
+     .counteiner-for-funny-bikes {
+         padding: 80px 32px 80px 32px;
+     }
+ }  
+ 
+ @media(min-width:991px) {
+     .about-funny-bike h2 {
+         font-size: 45px;
+         line-height: 54px;
+     }
+ }
+ /* About Funny Bikes  finished         */
+ 
+ 
+ 
+ 
+ 
+ /* Our Team       */
+ 
+ #ours-teams {
+     max-width: 1150px;
+     margin: auto;
+ }
+ 
+ .counteiner-of-our-team {
+     background-color: var(--color-for-form);
+     padding: 85px 24px 90px 24px;
+ }
+ 
+ .ourteam h2 {
+     color: var(--color-font-for-headings);
+     font-family:'Playfair Display', serif;
+     font-size: 34px;
+     font-weight: 900;
+     line-height: 41px;
+     text-align: center;
+ }
+ 
+ .our-team-block {
+     padding: 35px 15px 35px 15px;
+     border: solid 1px white;
+     margin-top: 30px;
+     background-color: var(--back-to-media);
+ }
+ 
+ .img-for-those-people img {
+     width: 130px;
+     height: 130px;
+     border-radius: 50%;
+ }
+ 
+ .img-for-those-people {
+     display: flex;
+     justify-content: center;
+ }
+ 
+  .those-people h3  {
+     color: var(--color-font-for-headings);
+     font-family: 'Montserrat', sans-serif;
+     font-size: 22px;
+     font-weight: 600;
+     line-height: 29px;
+     text-align: center;
+     margin-top: 30px;
+ }
+ 
+ .repairs-magician p {
+     color: #E03033;
+     font-family: 'Montserrat', sans-serif; 
+     font-size: 12px;
+     font-weight: 700;
+     line-height: 20px;
+     text-align: center;
+     margin-top: 20px;
+ }
+ 
+ .bicycle-mechanics p {
+     color: var(--color-font-for-headings);
+     font-family: 'Montserrat', sans-serif; 
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+     text-align: center;
+     margin-top: 20px;
+ }
+ 
+ @media(min-width:761px) {
+     .ourteam h2 {
+         font-size: 39px;
+         line-height: 47px;
+     }
+     .counteiner-of-pepole-blocks {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+     }
+ 
+     .our-team-block {
+         padding-left: 20px;
+         padding-right: 20px;
+        margin-left: 20px;
+     }
+ }
+ 
+ @media(min-width:991px) {
+     .counteiner-of-pepole-blocks {
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+     }
+ 
+      .ourteam h2 {
+         font-size: 45px;
+         line-height: 54px;
+     }
+ 
+     .those-people h3 {
+         line-height: 30px;
+     }
+ 
+     .repairs-magician p {
+         font-size: 13px;
+         line-height: 21px;
+     }
+     
+     .our-team-block {
+         margin-left: 50px;
+     }
+ }
+ /* Our Team  fineshed!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!     */
