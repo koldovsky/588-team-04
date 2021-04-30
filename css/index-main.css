@@ -1394,6 +1394,8 @@
  #location {
      max-width: 1150px;
      margin: auto;
+     padding-right: 6px;
+     
  }
  
  .iframe-of-bike iframe {
